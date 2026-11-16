@@ -10,13 +10,19 @@ from pathlib import Path
 import urllib.request, urllib.parse, urllib.error
 
 ROOT = Path(__file__).resolve().parents[1]
-API = "https://graph.instagram.com/v25.0"
+VERSION = "v25.0"
+
+
+def api_base() -> str:
+    """Facebook-login tokens (EAA...) use graph.facebook.com; Instagram-login tokens (IG...) use graph.instagram.com."""
+    tok = os.environ["IG_ACCESS_TOKEN"]
+    return f"https://graph.facebook.com/{VERSION}" if tok.startswith("EAA") else f"https://graph.instagram.com/{VERSION}"
 
 
 def call(method: str, path: str, **params) -> dict:
     params["access_token"] = os.environ["IG_ACCESS_TOKEN"]
     data = urllib.parse.urlencode(params).encode()
-    url = f"{API}/{path}"
+    url = f"{api_base()}/{path}"
     req = urllib.request.Request(url + ("?" + data.decode() if method == "GET" else ""),
                                  data=None if method == "GET" else data, method=method)
     try:
@@ -36,6 +42,15 @@ def wait_ready(cid: str) -> None:
             raise SystemExit(f"container {cid} status {s}")
         time.sleep(10)
     raise SystemExit(f"container {cid} not ready after 5 minutes")
+
+
+def check() -> int:
+    """Connection test: confirms the token can see the account. Posts nothing."""
+    uid = os.environ["IG_USER_ID"]
+    me = call("GET", uid, fields="username")
+    lim = call("GET", f"{uid}/content_publishing_limit", fields="quota_usage,config")
+    print(f"connected to @{me.get('username')} via {api_base().split('/')[2]}; publishing quota: {lim.get('data')}")
+    return 0
 
 
 def main(day: str) -> int:
@@ -69,4 +84,4 @@ def main(day: str) -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1]))
+    sys.exit(check() if sys.argv[1] == "--check" else main(sys.argv[1]))

@@ -1,8 +1,8 @@
 name: Refresh Instagram token
 
-# Long-lived Instagram tokens last 60 days. This renews it every two weeks and
-# stores the new one, so the token never expires. Needs a GH_PAT secret: a
-# fine-grained token for this repo with "Secrets: Read and write".
+# Keeps the access token from expiring. Runs on the 1st and 15th of each month.
+# Needs GH_PAT (fine-grained, this repo, "Secrets: Read and write").
+# Facebook-login tokens (EAA...) also need META_APP_ID and META_APP_SECRET.
 on:
   schedule:
     - cron: "17 3 1,15 * *"
@@ -15,9 +15,16 @@ jobs:
       - name: Refresh and store
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          META_APP_ID: ${{ secrets.META_APP_ID }}
+          META_APP_SECRET: ${{ secrets.META_APP_SECRET }}
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          new=$(curl -sf "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${IG_ACCESS_TOKEN}" | python3 -c "import sys,json; print(json.load(sys.stdin)['access_token'])")
+          if [[ "$IG_ACCESS_TOKEN" == EAA* ]]; then
+            url="https://graph.facebook.com/v25.0/oauth/access_token?grant_type=fb_exchange_token&client_id=${META_APP_ID}&client_secret=${META_APP_SECRET}&fb_exchange_token=${IG_ACCESS_TOKEN}"
+          else
+            url="https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${IG_ACCESS_TOKEN}"
+          fi
+          new=$(curl -sf "$url" | python3 -c "import sys,json; print(json.load(sys.stdin)['access_token'])")
           test -n "$new"
           echo "::add-mask::$new"
           gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" --body "$new"
