@@ -1,0 +1,158 @@
+{
+ "date": "2026-11-16",
+ "generated_utc": "2026-11-16T23:04:47+00:00",
+ "indices": {
+  "S&P 500": {
+   "close": 7416.59,
+   "chg": -1.92
+  },
+  "Nasdaq": {
+   "close": 24509.76,
+   "chg": -2.49
+  },
+  "Dow": {
+   "close": 51608.17,
+   "chg": -1.41
+  }
+ },
+ "breadth_up": 145,
+ "breadth_down": 356,
+ "n": 503,
+ "winners": [
+  {
+   "ticker": "TSN",
+   "name": "Tyson Foods",
+   "sector": "Consumer Staples",
+   "sub_industry": "Packaged Foods & Meats",
+   "close": 63.95,
+   "chg": 8.72,
+   "sub_industry_peers": {
+    "HRL": 2.81,
+    "GIS": 2.68,
+    "SJM": 2.15,
+    "MKC": 0.36
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "CNC",
+   "name": "Centene Corporation",
+   "sector": "Health Care",
+   "sub_industry": "Managed Health Care",
+   "close": 74.77,
+   "chg": 4.91,
+   "sub_industry_peers": {
+    "ELV": 3.86,
+    "HUM": 2.5,
+    "UNH": 1.12
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "TSCO",
+   "name": "Tractor Supply",
+   "sector": "Consumer Discretionary",
+   "sub_industry": "Other Specialty Retail",
+   "close": 37.95,
+   "chg": 4.12,
+   "sub_industry_peers": {
+    "ULTA": -1.27
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "SNDK",
+   "name": "Sandisk",
+   "sector": "Information Technology",
+   "sub_industry": "Technology Hardware, Storage & Peripherals",
+   "close": 809.11,
+   "chg": -8.58,
+   "sub_industry_peers": {
+    "DELL": -6.96,
+    "SMCI": -6.87,
+    "STX": -5.54,
+    "WDC": -4.98
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "sector": "Information Technology",
+   "sub_industry": "Communications Equipment",
+   "close": 546.0,
+   "chg": -8.48,
+   "sub_industry_peers": {
+    "CIEN": -8.19,
+    "ANET": -5.21,
+    "FFIV": -1.44,
+    "CSCO": -1.17
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "CIEN",
+   "name": "Ciena",
+   "sector": "Information Technology",
+   "sub_industry": "Communications Equipment",
+   "close": 257.56,
+   "chg": -8.19,
+   "sub_industry_peers": {
+    "LITE": -8.48,
+    "ANET": -5.21,
+    "FFIV": -1.44,
+    "CSCO": -1.17
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "sectors": [
+  [
+   "Consumer Staples",
+   0.36
+  ],
+  [
+   "Utilities",
+   0.14
+  ],
+  [
+   "Real Estate",
+   -0.07
+  ],
+  [
+   "Health Care",
+   -0.58
+  ],
+  [
+   "Communication Services",
+   -0.64
+  ],
+  [
+   "Consumer Discretionary",
+   -0.68
+  ],
+  [
+   "Financials",
+   -0.74
+  ],
+  [
+   "Materials",
+   -0.84
+  ],
+  [
+   "Industrials",
+   -1.0
+  ],
+  [
+   "Energy",
+   -2.35
+  ],
+  [
+   "Information Technology",
+   -3.1
+  ]
+ ],
+ "source": "Yahoo Finance closing prices, S&P 500 constituents"
+}

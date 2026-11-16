@@ -1,0 +1,125 @@
+{
+ "brand": "After the Bell",
+ "date": "2026-11-16",
+ "date_label": "Mon 16 Nov 2026",
+ "headline": "Tech sinks a day before Nvidia reports",
+ "headline_em": "Nvidia",
+ "context": "Chip and AI stocks led a broad sell-off as investors waited for Nvidia's results and weighed a new US rule on access to AI chips.",
+ "spx_close": 7416.59,
+ "spx_chg": -1.92,
+ "other_indices": {
+  "Nasdaq": {
+   "close": 24509.76,
+   "chg": -2.49
+  },
+  "Dow": {
+   "close": 51608.17,
+   "chg": -1.41
+  }
+ },
+ "breadth_up": 145,
+ "breadth_down": 356,
+ "winners": [
+  {
+   "ticker": "TSN",
+   "name": "Tyson Foods",
+   "chg": 8.72,
+   "why": "Earnings beat: $0.61 a share vs $0.60 expected, even as it forecast lower sales next year."
+  },
+  {
+   "ticker": "CNC",
+   "name": "Centene Corporation",
+   "chg": 4.91,
+   "why": "No company news. Health insurers rose together, with Elevance and Humana also higher."
+  },
+  {
+   "ticker": "TSCO",
+   "name": "Tractor Supply",
+   "chg": 4.12,
+   "why": "No company news. It rose against a falling market, while its closest peer, Ulta, slipped."
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "SNDK",
+   "name": "Sandisk",
+   "chg": -8.58,
+   "why": "No company news. Memory and storage stocks fell with AI chip names; Dell, Seagate and Western Digital dropped too."
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "chg": -8.48,
+   "why": "Followed a fall in Marvell, which agreed this month to buy Lumentum by paying in its own shares."
+  },
+  {
+   "ticker": "CIEN",
+   "name": "Ciena",
+   "chg": -8.19,
+   "why": "Fell with optical peers Lumentum and Arista, on the day it named a new product chief as its tech chief left."
+  }
+ ],
+ "sectors": [
+  [
+   "Consumer Staples",
+   0.36
+  ],
+  [
+   "Utilities",
+   0.14
+  ],
+  [
+   "Real Estate",
+   -0.07
+  ],
+  [
+   "Health Care",
+   -0.58
+  ],
+  [
+   "Communication",
+   -0.64
+  ],
+  [
+   "Consumer Discr.",
+   -0.68
+  ],
+  [
+   "Financials",
+   -0.74
+  ],
+  [
+   "Materials",
+   -0.84
+  ],
+  [
+   "Industrials",
+   -1.0
+  ],
+  [
+   "Energy",
+   -2.35
+  ],
+  [
+   "Tech",
+   -3.1
+  ]
+ ],
+ "sector_note": "Median move of stocks in each S&P 500 sector",
+ "chart_title": "Tech fell hardest, staples held up",
+ "watch": [
+  {
+   "when": "Tue",
+   "title": "Nvidia earnings",
+   "text": "The AI chip giant's results, after markets close, are this week's big test.",
+   "source": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+  },
+  {
+   "when": "Tue",
+   "title": "US retail sales",
+   "text": "A fresh read on how much Americans are spending.",
+   "source": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026"
+  }
+ ],
+ "question": "Will Nvidia's results calm the tech sell-off?"
+}

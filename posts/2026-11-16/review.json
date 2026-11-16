@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "gates": {"reasons": "PASS", "story": "PASS", "watch": "PASS", "no_advice": "PASS", "fair": "PASS", "looks": "PASS"},
+  "fixes": [],
+  "notes": "All 6 reasons check out for 16 Nov: TSN $0.61 vs $0.60, FY27 sales down 3.5-5.5% (Yahoo/RTT); LITE follows Marvell all-stock deal of 2 Nov (GuruFocus); CIEN 8-K confirms Friesen named CPO as Gage (product and technology chief) leaves, 16 Nov; SNDK/CNC/TSCO peer claims match data.json. Wrap (StockTitan) confirms tech-led drop before Nvidia results and Commerce remote-access chip rule; Nvidia reports Tue 17 Nov after close, retail sales Tue 8:30 ET. Minor nits only: Arista is networking rather than optical, and wrap-ups also cite Huang's resignation, which the post omits."
+}
