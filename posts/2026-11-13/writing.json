@@ -1,0 +1,19 @@
+{
+  "headline": "Nvidia drama drags tech lower",
+  "headline_em": "Nvidia",
+  "context": "Chip stocks slid again after Nvidia's CEO quit, but most other stocks rose and the Dow edged up.",
+  "chart_title": "Tech fell, almost everything else rose",
+  "why": {
+    "CHTR": {"text": "No company news. Cable peer Comcast rose 1.5%.", "sources": []},
+    "STE": {"text": "Jefferies upgraded it, saying a year of worries has left the shares cheaper than usual.", "sources": ["https://www.investing.com/news/analyst-ratings/jefferies-upgrades-steris-stock-rating-on-valuation-easing-headwinds-93CH-5024412"]},
+    "GPN": {"text": "Payment stocks rose together (FIS +4.2%, Fiserv +3.7%), a rebound after its recent sell-off.", "sources": ["https://finchannel.com/global-payments-rebounds-after-buyout-setback-puts-worldpay-back-in-focus/141527/american-business-trends/stock-prices/2026/11/"]},
+    "AMD": {"text": "Early gains flipped into an AI chip sell-off as investors worried about Nvidia without its CEO.", "sources": ["https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-13-221355021.html"]},
+    "DELL": {"text": "No company news. AI hardware stocks sold off; SanDisk and Western Digital fell about 5%.", "sources": ["https://www.quantisnow.com/articles/amd-falls-8-8-and-cisco-6-2-in-chip-pullback-that-leaves-the-average-stock-higher"]},
+    "CSCO": {"text": "Record sales, but next quarter's forecast came in lower, and Citi said growth may have peaked.", "sources": ["https://247wallst.com/investing/2026/11/13/cisco-slides-5-despite-raising-ai-outlook-to-9-billion-as-citi-says-growth-may-have-peaked-hewlett-packard-enterprise-retreats-5-arista-falls-3/"]}
+  },
+  "watch": [
+    {"when": "Tue", "title": "Nvidia earnings", "text": "Its first results since Jensen Huang stepped down as CEO.", "source": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html"},
+    {"when": "Thu", "title": "Anthropic IPO", "text": "Could be the largest stock market debut on record.", "source": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html"}
+  ],
+  "question": "Does a CEO leaving change how you see a company?"
+}

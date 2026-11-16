@@ -1,0 +1,159 @@
+{
+ "date": "2026-11-13",
+ "generated_utc": "2026-11-16T18:38:28+00:00",
+ "indices": {
+  "S&P 500": {
+   "close": 7561.67,
+   "chg": -0.4
+  },
+  "Nasdaq": {
+   "close": 25136.27,
+   "chg": -0.91
+  },
+  "Dow": {
+   "close": 52347.55,
+   "chg": 0.1
+  }
+ },
+ "breadth_up": 317,
+ "breadth_down": 183,
+ "n": 503,
+ "winners": [
+  {
+   "ticker": "CHTR",
+   "name": "Charter Communications",
+   "sector": "Communication Services",
+   "sub_industry": "Cable & Satellite",
+   "close": 138.39,
+   "chg": 4.32,
+   "sub_industry_peers": {
+    "CMCSA": 1.45
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "STE",
+   "name": "Steris",
+   "sector": "Health Care",
+   "sub_industry": "Health Care Equipment",
+   "close": 264.32,
+   "chg": 4.29,
+   "sub_industry_peers": {
+    "DXCM": 2.38,
+    "PODD": 2.14,
+    "MDT": 1.85,
+    "RVTY": -1.67
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "GPN",
+   "name": "Global Payments",
+   "sector": "Financials",
+   "sub_industry": "Transaction & Payment Processing Services",
+   "close": 91.9,
+   "chg": 4.21,
+   "sub_industry_peers": {
+    "FIS": 4.16,
+    "FISV": 3.71,
+    "XYZ": 2.82,
+    "PYPL": 1.68
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices",
+   "sector": "Information Technology",
+   "sub_industry": "Semiconductors",
+   "close": 534.06,
+   "chg": -8.75,
+   "sub_industry_peers": {
+    "AVGO": -4.76,
+    "MRVL": -4.68,
+    "MPWR": -3.93,
+    "ON": -3.62
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "sector": "Information Technology",
+   "sub_industry": "Technology Hardware, Storage & Peripherals",
+   "close": 344.53,
+   "chg": -7.18,
+   "sub_industry_peers": {
+    "SNDK": -5.59,
+    "WDC": -5.0,
+    "HPE": -3.73,
+    "STX": -3.09
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "CSCO",
+   "name": "Cisco",
+   "sector": "Information Technology",
+   "sub_industry": "Communications Equipment",
+   "close": 95.64,
+   "chg": -6.24,
+   "sub_industry_peers": {
+    "CIEN": -4.57,
+    "ANET": -4.52,
+    "LITE": -4.49,
+    "FFIV": -2.68
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "sectors": [
+  [
+   "Consumer Staples",
+   1.28
+  ],
+  [
+   "Energy",
+   1.0
+  ],
+  [
+   "Financials",
+   0.79
+  ],
+  [
+   "Communication Services",
+   0.66
+  ],
+  [
+   "Utilities",
+   0.58
+  ],
+  [
+   "Real Estate",
+   0.4
+  ],
+  [
+   "Health Care",
+   0.34
+  ],
+  [
+   "Materials",
+   0.12
+  ],
+  [
+   "Consumer Discretionary",
+   0.12
+  ],
+  [
+   "Industrials",
+   -0.13
+  ],
+  [
+   "Information Technology",
+   -1.52
+  ]
+ ],
+ "source": "Yahoo Finance closing prices, S&P 500 constituents"
+}

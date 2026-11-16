@@ -1,0 +1,125 @@
+{
+ "brand": "After the Bell",
+ "date": "2026-11-13",
+ "date_label": "Fri 13 Nov 2026",
+ "headline": "Nvidia drama drags tech lower",
+ "headline_em": "Nvidia",
+ "context": "Chip stocks slid again after Nvidia's CEO quit, but most other stocks rose and the Dow edged up.",
+ "spx_close": 7561.67,
+ "spx_chg": -0.4,
+ "other_indices": {
+  "Nasdaq": {
+   "close": 25136.27,
+   "chg": -0.91
+  },
+  "Dow": {
+   "close": 52347.55,
+   "chg": 0.1
+  }
+ },
+ "breadth_up": 317,
+ "breadth_down": 183,
+ "winners": [
+  {
+   "ticker": "CHTR",
+   "name": "Charter Communications",
+   "chg": 4.32,
+   "why": "No company news. Cable peer Comcast rose 1.5%."
+  },
+  {
+   "ticker": "STE",
+   "name": "Steris",
+   "chg": 4.29,
+   "why": "Jefferies upgraded it, saying a year of worries has left the shares cheaper than usual."
+  },
+  {
+   "ticker": "GPN",
+   "name": "Global Payments",
+   "chg": 4.21,
+   "why": "Payment stocks rose together (FIS +4.2%, Fiserv +3.7%), a rebound after its recent sell-off."
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices",
+   "chg": -8.75,
+   "why": "Early gains flipped into an AI chip sell-off as investors worried about Nvidia without its CEO."
+  },
+  {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "chg": -7.18,
+   "why": "No company news. AI hardware stocks sold off; SanDisk and Western Digital fell about 5%."
+  },
+  {
+   "ticker": "CSCO",
+   "name": "Cisco",
+   "chg": -6.24,
+   "why": "Record sales, but next quarter's forecast came in lower, and Citi said growth may have peaked."
+  }
+ ],
+ "sectors": [
+  [
+   "Consumer Staples",
+   1.28
+  ],
+  [
+   "Energy",
+   1.0
+  ],
+  [
+   "Financials",
+   0.79
+  ],
+  [
+   "Communication",
+   0.66
+  ],
+  [
+   "Utilities",
+   0.58
+  ],
+  [
+   "Real Estate",
+   0.4
+  ],
+  [
+   "Health Care",
+   0.34
+  ],
+  [
+   "Materials",
+   0.12
+  ],
+  [
+   "Consumer Discr.",
+   0.12
+  ],
+  [
+   "Industrials",
+   -0.13
+  ],
+  [
+   "Tech",
+   -1.52
+  ]
+ ],
+ "sector_note": "Median move of stocks in each S&P 500 sector",
+ "chart_title": "Tech fell, almost everything else rose",
+ "watch": [
+  {
+   "when": "Tue",
+   "title": "Nvidia earnings",
+   "text": "Its first results since Jensen Huang stepped down as CEO.",
+   "source": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html"
+  },
+  {
+   "when": "Thu",
+   "title": "Anthropic IPO",
+   "text": "Could be the largest stock market debut on record.",
+   "source": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html"
+  }
+ ],
+ "question": "Does a CEO leaving change how you see a company?"
+}

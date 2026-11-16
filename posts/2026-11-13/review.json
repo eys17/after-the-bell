@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "gates": {"reasons": "PASS", "story": "PASS", "watch": "PASS", "no_advice": "PASS", "fair": "PASS", "looks": "PASS"},
+  "fixes": [],
+  "notes": "All six reasons check out against their sources for 13 Nov. STE: Jefferies upgrade to Buy that day. GPN: rebound after a 12% drop on 12 Nov. AMD: early gains reversed on post-Huang Nvidia worries. CSCO: Q1 revenue of $18.52bn, Q2 guide of $18.0-18.2bn, and Citi saying growth peaked. Charter's IR page shows no release on 13 Nov (its tender offer was 10 Nov), and I found no Dell-specific news. Nvidia reports Tue 17 Nov and the Anthropic IPO is expected Thu 19 Nov. Slides are clean. One minor point, not a fail: the 'Record sales' wording for Cisco isn't stated in the source, though $18.52bn is clearly a company high."
+}
