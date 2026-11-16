@@ -1,8 +1,15 @@
 name: Check Instagram connection
 
 # Safe test: confirms the token works and which account it reaches. Posts nothing.
+# Runs by hand, or whenever checks/REQUEST changes. Writes the result to checks/connection.txt.
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["checks/REQUEST"]
+
+permissions:
+  contents: write
 
 jobs:
   check:
@@ -13,4 +20,22 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: python pipeline/publish.py --check
+          GH_PAT: ${{ secrets.GH_PAT }}
+          META_APP_ID: ${{ secrets.META_APP_ID }}
+          META_APP_SECRET: ${{ secrets.META_APP_SECRET }}
+        run: |
+          mkdir -p checks
+          {
+            echo "checked_utc: $(date -u +%FT%TZ)"
+            for s in IG_USER_ID IG_ACCESS_TOKEN GH_PAT META_APP_ID META_APP_SECRET; do
+              if [ -n "${!s}" ]; then echo "secret $s: set"; else echo "secret $s: MISSING"; fi
+            done
+            python pipeline/publish.py --check 2>&1 || echo "connection: FAILED"
+          } > checks/connection.txt
+          cat checks/connection.txt
+      - name: Save result
+        run: |
+          git config user.name "after-the-bell-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add checks/connection.txt
+          git diff --cached --quiet || (git commit -m "Connection check" && git push)
