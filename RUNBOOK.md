@@ -7,7 +7,7 @@ has passed every check, or publishes nothing and says why.
 ## 0. Set up (fresh container each run)
 
 ```bash
-cd <repo root>
+cd /home/claude/after-the-bell        # the repo clone
 pip install --break-system-packages -q -r requirements.txt
 npm ci --silent
 python -m playwright install chromium 2>/dev/null || true   # skip if Chromium is preinstalled
@@ -41,8 +41,8 @@ If it prints FAIL, fix `writing.json` to satisfy each listed problem and run it 
 Start a **separate agent** (Agent tool, general-purpose) with this prompt, filling in the
 date, and wait for it:
 
-> You are the independent reviewer. Read /…/prompts/reviewer.md and review the post in
-> /…/posts/<date>/. Write review.json there as it describes. Do not edit any other file.
+> You are the independent reviewer. Read /home/claude/after-the-bell/prompts/reviewer.md and review the post in
+> /home/claude/after-the-bell/posts/<date>/. Write review.json there as it describes. Do not edit any other file.
 
 - `PASS` → go to step 5.
 - `FIX` → apply its fixes to `writing.json` (you may decide a fix is wrong, but only if
@@ -59,7 +59,7 @@ Only when `checks.txt` says PASS **and** `review.json` says PASS:
 date -u +%FT%TZ > posts/<date>/APPROVED
 git add posts/<date> pipeline/sp500.csv
 git commit -m "After the Bell <date>"
-git push origin main
+git pull --rebase -q origin main && git push origin main
 ```
 
 Pushing APPROVED makes GitHub Actions post the carousel to Instagram
