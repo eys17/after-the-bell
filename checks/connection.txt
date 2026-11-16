@@ -1,0 +1,7 @@
+checked_utc: 2026-11-16T20:40:46Z
+secret IG_USER_ID: set
+secret IG_ACCESS_TOKEN: set
+secret GH_PAT: set
+secret META_APP_ID: set
+secret META_APP_SECRET: set
+connected to @afterthebell.daily via graph.facebook.com; publishing quota: [{'quota_usage': 0, 'config': {'quota_total': 100, 'quota_duration': 86400}}]
