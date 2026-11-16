@@ -13,6 +13,33 @@ npm ci --silent
 python -m playwright install chromium 2>/dev/null || true   # skip if Chromium is preinstalled
 ```
 
+## 0b. Is today already handled? (retries)
+
+The schedule fires every hour from 17:03 to 22:03 New York time, so that a run that
+fails (for example because of a usage limit) is retried, up to 5 times. Each run first
+checks whether an earlier run already finished or is still going:
+
+```bash
+D=$(TZ=America/New_York date +%F)
+git fetch -q origin main
+for f in PUBLISHED APPROVED BLOCKED; do
+  git cat-file -e origin/main:posts/$D/$f 2>/dev/null && { echo "$D already $f - nothing to do"; exit 0; }
+done
+if git cat-file -e origin/main:posts/$D/RUNNING 2>/dev/null; then
+  started=$(git show origin/main:posts/$D/RUNNING)
+  age=$(( $(date -u +%s) - $(date -u -d "$started" +%s) ))
+  [ "$age" -lt 3000 ] && { echo "another run started ${age}s ago - leaving it alone"; exit 0; }
+fi
+mkdir -p posts/$D && date -u +%FT%TZ > posts/$D/RUNNING
+git add posts/$D/RUNNING && git commit -qm "Run started $D" && git pull -q --rebase origin main && git push -q origin main
+```
+
+- Already PUBLISHED, APPROVED or BLOCKED: stop quietly. Never post twice.
+- RUNNING less than 50 minutes old: another run is working on it. Stop quietly.
+- RUNNING older than that: the earlier run died (e.g. hit a limit). Carry on and redo the day.
+- If this is the 22:03 run (the last try) and it fails, send a push notification that
+  today was skipped.
+
 ## 1. Data
 
 ```bash
@@ -57,6 +84,7 @@ Only when `checks.txt` says PASS **and** `review.json` says PASS:
 
 ```bash
 date -u +%FT%TZ > posts/<date>/APPROVED
+git rm -q --cached posts/<date>/RUNNING 2>/dev/null; rm -f posts/<date>/RUNNING
 git add posts/<date> pipeline/sp500.csv
 git commit -m "After the Bell <date>"
 git pull --rebase -q origin main && git push origin main
