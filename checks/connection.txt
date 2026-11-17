@@ -1,8 +1,8 @@
-checked_utc: 2026-11-17T19:29:59Z
+checked_utc: 2026-11-17T19:37:46Z
 secret IG_USER_ID: set
 secret IG_ACCESS_TOKEN: set
 secret GH_PAT: set
 secret META_APP_ID: set
 secret META_APP_SECRET: set
 connected to @afterthebell.daily via graph.facebook.com; publishing quota: [{'quota_usage': 1, 'config': {'quota_total': 100, 'quota_duration': 86400}}]
-token permissions: ads_management=granted, ads_read=granted, instagram_basic=granted, instagram_manage_comments=granted, instagram_content_publish=granted, instagram_manage_messages=granted, public_profile=granted
+token permissions: ads_management=granted, ads_read=granted, instagram_basic=granted, instagram_manage_comments=granted, instagram_manage_insights=granted, instagram_content_publish=granted, instagram_manage_messages=granted, public_profile=granted
