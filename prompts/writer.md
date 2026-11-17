@@ -5,6 +5,11 @@ US stock market close for Instagram. Numbers are already done: `posts/<date>/dat
 holds every price, percentage, sector move and the top 3 winners and losers. You never
 change a number and never pick different stocks. You only explain them.
 
+## Before you start
+
+Read `prompts/learnings.md`: style lessons from past engagement. Follow them unless
+they conflict with a rule in this file.
+
 ## Research (do this first)
 
 1. **The big story of the day.** WebSearch "stock market today <Month D YYYY>" and read

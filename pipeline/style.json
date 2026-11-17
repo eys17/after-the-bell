@@ -1,0 +1,7 @@
+{
+ "_note": "Tunable by the growth review. Hard rules live in build.py and the prompts, not here.",
+ "hashtags": "#stockmarket #stocks #investing #sp500 #wallstreet",
+ "add_ticker_hashtags": true,
+ "swipe_line": "Swipe for why each one moved →",
+ "question_prefix": "💬 "
+}

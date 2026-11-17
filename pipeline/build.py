@@ -22,6 +22,7 @@ BANNED = [r"\byou should\b", r"\bwe recommend\b", r"\bbuy now\b", r"\bsell now\b
           r"\bguarantee", r"\bcan'?t lose\b", r"\bnot too late\b", r"\bload up\b", r"\bto the moon\b",
           r"\bstrong buy\b", r"\bmust[- ]own\b", r"\bfree money\b", r"\bdon'?t miss\b"]
 NO_NEWS = "No company news"
+STYLE = json.loads((ROOT / "pipeline" / "style.json").read_text())
 
 
 def main(day: str) -> int:
@@ -111,13 +112,13 @@ def main(day: str) -> int:
         "🟢 " + " · ".join(f"${m['ticker']} {p(m['chg'])}" for m in movers["winners"]),
         "🔴 " + " · ".join(f"${m['ticker']} {p(m['chg'])}" for m in movers["losers"]),
         "",
-        "Swipe for why each one moved →",
+        STYLE["swipe_line"],
         "",
-        f"💬 {post['question']}",
+        f"{STYLE['question_prefix']}{post['question']}",
         "",
         "For information only, not financial advice. Data: Yahoo Finance.",
         "",
-        f"#stockmarket #stocks #investing #sp500 #wallstreet {tags}",
+        STYLE["hashtags"] + (" " + tags if STYLE.get("add_ticker_hashtags", True) else ""),
     ])
     if len(caption) > 2100:
         problems.append(f"caption: {len(caption)} chars, Instagram allows 2200")
