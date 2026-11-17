@@ -1,2 +1,2 @@
 post_date,media_id,published_utc,age_hours,reach,views,likes,comments,shares,saved,total_interactions,error
-2026-11-16,17928012138448271,2026-11-16T23:10:57+00:00,20,,,,,,,,"Instagram API error on 17928012138448271/insights: 400 {""error"":{""message"":""(#10) Application does not have permission for this action"",""code"":10,""type"":""OAuthException"",""fbtrace_id"":""A8Ng-a_zoYtWmKoc"
+2026-11-16,17928012138448271,2026-11-16T23:10:57+00:00,20,0,0,1,0,0,0,1,
