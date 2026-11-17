@@ -14,6 +14,8 @@ on:
 permissions:
   contents: write
 
+concurrency: ${{ github.workflow }}
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -42,4 +44,4 @@ jobs:
         run: |
           echo "token refreshed OK $(date -u +%FT%TZ)" > checks/refresh.txt
           git config user.name "after-the-bell-bot"; git config user.email "actions@users.noreply.github.com"
-          git add checks/refresh.txt; git commit -m "Token refresh check"; git push
+          git add checks/refresh.txt; git commit -m "Token refresh check"; git pull --rebase -q; git push

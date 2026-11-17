@@ -11,6 +11,8 @@ on:
 permissions:
   contents: write
 
+concurrency: ${{ github.workflow }}
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -38,4 +40,4 @@ jobs:
           git config user.name "after-the-bell-bot"
           git config user.email "actions@users.noreply.github.com"
           git add checks/connection.txt
-          git diff --cached --quiet || (git commit -m "Connection check" && git push)
+          git diff --cached --quiet || (git commit -m "Connection check" && git pull --rebase -q && git push)

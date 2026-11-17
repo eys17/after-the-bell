@@ -12,7 +12,8 @@ on:
 permissions:
   contents: write
 
-concurrency: insights
+
+concurrency: ${{ github.workflow }}
 
 jobs:
   collect:
