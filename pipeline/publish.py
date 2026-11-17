@@ -50,6 +50,9 @@ def check() -> int:
     me = call("GET", uid, fields="username")
     lim = call("GET", f"{uid}/content_publishing_limit", fields="quota_usage,config")
     print(f"connected to @{me.get('username')} via {api_base().split('/')[2]}; publishing quota: {lim.get('data')}")
+    if os.environ["IG_ACCESS_TOKEN"].startswith("EAA"):
+        perms = call("GET", "me/permissions").get("data", [])
+        print("token permissions:", ", ".join(f"{x['permission']}={x['status']}" for x in perms))
     return 0
 
 
