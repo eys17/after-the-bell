@@ -1,0 +1,156 @@
+{
+ "date": "2026-11-18",
+ "generated_utc": "2026-11-18T22:05:20+00:00",
+ "indices": {
+  "S&P 500": {
+   "close": 7323.63,
+   "chg": -0.23
+  },
+  "Nasdaq": {
+   "close": 24429.88,
+   "chg": 0.42
+  },
+  "Dow": {
+   "close": 50198.17,
+   "chg": -1.11
+  }
+ },
+ "breadth_up": 237,
+ "breadth_down": 265,
+ "n": 503,
+ "winners": [
+  {
+   "ticker": "OKTA",
+   "name": "Okta, Inc.",
+   "sector": "Information Technology",
+   "sub_industry": "Application Software",
+   "close": 195.61,
+   "chg": 12.07,
+   "sub_industry_peers": {
+    "ADBE": -3.97,
+    "WDAY": -2.93,
+    "INTU": -2.35,
+    "CRM": -2.12
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "sector": "Information Technology",
+   "sub_industry": "Systems Software",
+   "close": 339.92,
+   "chg": 9.9,
+   "sub_industry_peers": {
+    "CRWD": 7.95,
+    "FTNT": 5.87,
+    "GEN": 3.22,
+    "NOW": -2.49
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "GNRC",
+   "name": "Generac",
+   "sector": "Industrials",
+   "sub_industry": "Heavy Electrical Equipment",
+   "close": 205.45,
+   "chg": 9.87,
+   "sub_industry_peers": {
+    "GEV": -0.99
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "HUM",
+   "name": "Humana",
+   "sector": "Health Care",
+   "sub_industry": "Managed Health Care",
+   "close": 385.78,
+   "chg": -12.98,
+   "sub_industry_peers": {
+    "UNH": -10.21,
+    "ELV": -7.63,
+    "CNC": -7.03
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "UNH",
+   "name": "UnitedHealth Group",
+   "sector": "Health Care",
+   "sub_industry": "Managed Health Care",
+   "close": 349.91,
+   "chg": -10.21,
+   "sub_industry_peers": {
+    "HUM": -12.98,
+    "ELV": -7.63,
+    "CNC": -7.03
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "ELV",
+   "name": "Elevance Health",
+   "sector": "Health Care",
+   "sub_industry": "Managed Health Care",
+   "close": 400.84,
+   "chg": -7.63,
+   "sub_industry_peers": {
+    "HUM": -12.98,
+    "UNH": -10.21,
+    "CNC": -7.03
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "sectors": [
+  [
+   "Consumer Discretionary",
+   1.08
+  ],
+  [
+   "Utilities",
+   0.35
+  ],
+  [
+   "Industrials",
+   0.22
+  ],
+  [
+   "Information Technology",
+   0.09
+  ],
+  [
+   "Real Estate",
+   -0.04
+  ],
+  [
+   "Communication Services",
+   -0.05
+  ],
+  [
+   "Health Care",
+   -0.2
+  ],
+  [
+   "Consumer Staples",
+   -0.28
+  ],
+  [
+   "Materials",
+   -0.29
+  ],
+  [
+   "Financials",
+   -0.74
+  ],
+  [
+   "Energy",
+   -1.66
+  ]
+ ],
+ "source": "Yahoo Finance closing prices, S&P 500 constituents"
+}

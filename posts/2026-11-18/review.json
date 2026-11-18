@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "gates": {"reasons": "PASS", "story": "PASS", "watch": "PASS", "no_advice": "PASS", "fair": "PASS", "looks": "PASS"},
+  "fixes": [],
+  "notes": "All 6 reasons check out against sources/data (CMS rule of 16 Nov targets MA overpayments; insurers' second day down; PANW reported after close; cyber peers up; GNRC ~3% down prior 5 days). Dow -1.11%, NVDA -2.89% after results, Anthropic $83 above $70-78 range trades Thu 19 Nov as ANT, GTA VI Thu. Slides clean."
+}

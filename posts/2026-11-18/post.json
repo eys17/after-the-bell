@@ -1,0 +1,125 @@
+{
+ "brand": "After the Bell",
+ "date": "2026-11-18",
+ "date_label": "Wed 18 Nov 2026",
+ "headline": "Dow drops as health insurers slump",
+ "headline_em": "health insurers",
+ "context": "Health insurers sank on a Medicare audit plan, dragging the Dow down, while Nvidia slipped despite strong results and tech held up.",
+ "spx_close": 7323.63,
+ "spx_chg": -0.23,
+ "other_indices": {
+  "Nasdaq": {
+   "close": 24429.88,
+   "chg": 0.42
+  },
+  "Dow": {
+   "close": 50198.17,
+   "chg": -1.11
+  }
+ },
+ "breadth_up": 237,
+ "breadth_down": 265,
+ "winners": [
+  {
+   "ticker": "OKTA",
+   "name": "Okta, Inc.",
+   "chg": 12.07,
+   "why": "No company news. Cybersecurity stocks rallied together, with Tenable and CrowdStrike also up."
+  },
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "chg": 9.9,
+   "why": "No company news. It rose with other security stocks before its results came out after the close."
+  },
+  {
+   "ticker": "GNRC",
+   "name": "Generac",
+   "chg": 9.87,
+   "why": "No company news. It bounced after a weak week, while its only S&P 500 peer, GE Vernova, slipped."
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "HUM",
+   "name": "Humana",
+   "chg": -12.98,
+   "why": "Fell for a second day after Medicare proposed wider audits of its private plans to claw back overpayments."
+  },
+  {
+   "ticker": "UNH",
+   "name": "UnitedHealth Group",
+   "chg": -10.21,
+   "why": "Sank with Humana as investors weighed the Medicare audit plan, a second straight day of steep falls for insurers."
+  },
+  {
+   "ticker": "ELV",
+   "name": "Elevance Health",
+   "chg": -7.63,
+   "why": "Dropped with Humana, UnitedHealth and Centene on the same Medicare audit proposal."
+  }
+ ],
+ "sectors": [
+  [
+   "Consumer Discr.",
+   1.08
+  ],
+  [
+   "Utilities",
+   0.35
+  ],
+  [
+   "Industrials",
+   0.22
+  ],
+  [
+   "Tech",
+   0.09
+  ],
+  [
+   "Real Estate",
+   -0.04
+  ],
+  [
+   "Communication",
+   -0.05
+  ],
+  [
+   "Health Care",
+   -0.2
+  ],
+  [
+   "Consumer Staples",
+   -0.28
+  ],
+  [
+   "Materials",
+   -0.29
+  ],
+  [
+   "Financials",
+   -0.74
+  ],
+  [
+   "Energy",
+   -1.66
+  ]
+ ],
+ "sector_note": "Median move of stocks in each S&P 500 sector",
+ "chart_title": "Shops led, energy fell the most",
+ "watch": [
+  {
+   "when": "Thu",
+   "title": "Anthropic starts trading",
+   "text": "The AI company priced its IPO above its range and debuts on the Nasdaq as ANT.",
+   "source": "https://investinglive.com/stocks/anthropic-prices-ipo-at-83-above-range-setting-up-thursday-s-nasdaq-debut-as-ant/"
+  },
+  {
+   "when": "Thu",
+   "title": "GTA VI launches",
+   "text": "Take-Two's long-awaited game goes on sale, a big test for the video game maker.",
+   "source": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+  }
+ ],
+ "question": "Is Medicare right to audit insurers harder, or is the sell-off overdone?"
+}

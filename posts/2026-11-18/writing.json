@@ -1,0 +1,64 @@
+{
+  "headline": "Dow drops as health insurers slump",
+  "headline_em": "health insurers",
+  "context": "Health insurers sank on a Medicare audit plan, dragging the Dow down, while Nvidia slipped despite strong results and tech held up.",
+  "chart_title": "Shops led, energy fell the most",
+  "why": {
+    "OKTA": {
+      "text": "No company news. Cybersecurity stocks rallied together, with Tenable and CrowdStrike also up.",
+      "sources": [
+        "https://seekingalpha.com/news/4674313-okta-rallies-9-amid-peer-strength?feed_item_type=news",
+        "https://businessupturn.com/usa/money/us-markets/top-movers-cyber-security-stocks-surge-while-miners-retreat-wednesday-18-november-2026/"
+      ]
+    },
+    "PANW": {
+      "text": "No company news. It rose with other security stocks before its results came out after the close.",
+      "sources": [
+        "https://247wallst.com/cards/cybersecurity-took-the-close-with-sentinelone-up-10-8-and-tjx-session-movers-01m7r80z7xqtwhgx7z3nwjjc03",
+        "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+      ]
+    },
+    "GNRC": {
+      "text": "No company news. It bounced after a weak week, while its only S&P 500 peer, GE Vernova, slipped.",
+      "sources": [
+        "https://www.tokenpost.com/news/investing/60704"
+      ]
+    },
+    "HUM": {
+      "text": "Fell for a second day after Medicare proposed wider audits of its private plans to claw back overpayments.",
+      "sources": [
+        "https://rallies.ai/news/health-insurers-extend-decline-on-proposed-new-rule-to-curb-fraud-73c041727c3585ed",
+        "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+      ]
+    },
+    "UNH": {
+      "text": "Sank with Humana as investors weighed the Medicare audit plan, a second straight day of steep falls for insurers.",
+      "sources": [
+        "https://rallies.ai/news/health-insurers-extend-decline-on-proposed-new-rule-to-curb-fraud-73c041727c3585ed",
+        "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+      ]
+    },
+    "ELV": {
+      "text": "Dropped with Humana, UnitedHealth and Centene on the same Medicare audit proposal.",
+      "sources": [
+        "https://rallies.ai/news/health-insurers-extend-decline-on-proposed-new-rule-to-curb-fraud-73c041727c3585ed",
+        "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+      ]
+    }
+  },
+  "watch": [
+    {
+      "when": "Thu",
+      "title": "Anthropic starts trading",
+      "text": "The AI company priced its IPO above its range and debuts on the Nasdaq as ANT.",
+      "source": "https://investinglive.com/stocks/anthropic-prices-ipo-at-83-above-range-setting-up-thursday-s-nasdaq-debut-as-ant/"
+    },
+    {
+      "when": "Thu",
+      "title": "GTA VI launches",
+      "text": "Take-Two's long-awaited game goes on sale, a big test for the video game maker.",
+      "source": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+    }
+  ],
+  "question": "Is Medicare right to audit insurers harder, or is the sell-off overdone?"
+}
