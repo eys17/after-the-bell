@@ -1,0 +1,58 @@
+{
+  "headline": "Software slump drags stocks lower",
+  "headline_em": "Software",
+  "context": "Software stocks led a broad sell-off as Anthropic's planned share sale weighed on the sector, while Nvidia's results were due after the close.",
+  "chart_title": "Every sector fell, utilities the most",
+  "why": {
+    "FIX": {
+      "text": "No company news. It rose against a falling market; fellow builders Quanta and EMCOR were up too.",
+      "sources": []
+    },
+    "COHR": {
+      "text": "Rose after reports that the US will press ahead with limits on imports of Chinese data centre equipment.",
+      "sources": [
+        "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-091546152.html",
+        "https://thewallstreetrepublic.substack.com/p/nvidia-beats-and-guides-to-130bn"
+      ]
+    },
+    "CIEN": {
+      "text": "No company news. Optical network stocks rose together, with Lumentum also higher.",
+      "sources": [
+        "https://thewallstreetrepublic.substack.com/p/nvidia-beats-and-guides-to-130bn"
+      ]
+    },
+    "CRM": {
+      "text": "Led a renewed software sell-off, its worst day since May 2024, as Anthropic's planned IPO weighed on the sector.",
+      "sources": [
+        "https://thewallstreetrepublic.substack.com/p/nvidia-beats-and-guides-to-130bn"
+      ]
+    },
+    "INTU": {
+      "text": "No company news. It fell with other software makers; Salesforce, Workday and FICO all dropped sharply.",
+      "sources": [
+        "https://thewallstreetrepublic.substack.com/p/nvidia-beats-and-guides-to-130bn"
+      ]
+    },
+    "NOW": {
+      "text": "No company news. It slid with the wider software sell-off led by Salesforce.",
+      "sources": [
+        "https://thewallstreetrepublic.substack.com/p/nvidia-beats-and-guides-to-130bn"
+      ]
+    }
+  },
+  "watch": [
+    {
+      "when": "Wed",
+      "title": "Fed meeting minutes",
+      "text": "Notes from the last Fed meeting may hint at where interest rates go next.",
+      "source": "https://thewallstreetrepublic.substack.com/p/nvidia-beats-and-guides-to-130bn"
+    },
+    {
+      "when": "Thu",
+      "title": "Anthropic IPO",
+      "text": "The AI company is expected to start trading on the Nasdaq.",
+      "source": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-091546152.html"
+    }
+  ],
+  "question": "Will Nvidia's results be enough to steady the market?"
+}

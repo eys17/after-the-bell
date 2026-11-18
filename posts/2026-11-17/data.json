@@ -1,0 +1,159 @@
+{
+ "date": "2026-11-17",
+ "generated_utc": "2026-11-18T00:05:27+00:00",
+ "indices": {
+  "S&P 500": {
+   "close": 7340.53,
+   "chg": -1.03
+  },
+  "Nasdaq": {
+   "close": 24328.38,
+   "chg": -0.74
+  },
+  "Dow": {
+   "close": 50759.42,
+   "chg": -1.64
+  }
+ },
+ "breadth_up": 75,
+ "breadth_down": 427,
+ "n": 503,
+ "winners": [
+  {
+   "ticker": "FIX",
+   "name": "Comfort Systems USA",
+   "sector": "Industrials",
+   "sub_industry": "Construction & Engineering",
+   "close": 1099.02,
+   "chg": 3.91,
+   "sub_industry_peers": {
+    "PWR": 2.16,
+    "EME": 1.18,
+    "J": -0.99
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "COHR",
+   "name": "Coherent Corp.",
+   "sector": "Information Technology",
+   "sub_industry": "Electronic Components",
+   "close": 210.86,
+   "chg": 3.65,
+   "sub_industry_peers": {
+    "GLW": 2.19,
+    "APH": 1.23
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "CIEN",
+   "name": "Ciena",
+   "sector": "Information Technology",
+   "sub_industry": "Communications Equipment",
+   "close": 264.82,
+   "chg": 2.82,
+   "sub_industry_peers": {
+    "LITE": 2.56,
+    "MSI": -1.5,
+    "CSCO": 0.62,
+    "ANET": -0.32
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "CRM",
+   "name": "Salesforce",
+   "sector": "Information Technology",
+   "sub_industry": "Application Software",
+   "close": 194.52,
+   "chg": -9.45,
+   "sub_industry_peers": {
+    "INTU": -7.17,
+    "WDAY": -5.8,
+    "FICO": -5.68,
+    "DDOG": -4.44
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "INTU",
+   "name": "Intuit",
+   "sector": "Information Technology",
+   "sub_industry": "Application Software",
+   "close": 320.79,
+   "chg": -7.17,
+   "sub_industry_peers": {
+    "CRM": -9.45,
+    "WDAY": -5.8,
+    "FICO": -5.68,
+    "DDOG": -4.44
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "NOW",
+   "name": "ServiceNow",
+   "sector": "Information Technology",
+   "sub_industry": "Systems Software",
+   "close": 92.9,
+   "chg": -6.51,
+   "sub_industry_peers": {
+    "GEN": -2.89,
+    "TWLO": -2.65,
+    "MSFT": -2.27,
+    "PANW": -2.15
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "sectors": [
+  [
+   "Energy",
+   -1.0
+  ],
+  [
+   "Information Technology",
+   -1.0
+  ],
+  [
+   "Industrials",
+   -1.11
+  ],
+  [
+   "Materials",
+   -1.15
+  ],
+  [
+   "Communication Services",
+   -1.24
+  ],
+  [
+   "Consumer Discretionary",
+   -1.25
+  ],
+  [
+   "Health Care",
+   -1.28
+  ],
+  [
+   "Real Estate",
+   -1.29
+  ],
+  [
+   "Consumer Staples",
+   -1.55
+  ],
+  [
+   "Financials",
+   -1.75
+  ],
+  [
+   "Utilities",
+   -1.89
+  ]
+ ],
+ "source": "Yahoo Finance closing prices, S&P 500 constituents"
+}

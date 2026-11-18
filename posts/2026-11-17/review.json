@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "gates": {"reasons": "PASS", "story": "PASS", "watch": "PASS", "no_advice": "PASS", "fair": "PASS", "looks": "PASS"},
+  "fixes": [],
+  "notes": "All six reasons match the sources: the CRM 'worst day since May 2024' and the COHR China-import report were both checked, and peer moves match data.json. Fed minutes Wed 18 Nov and Anthropic's Nasdaq debut Thursday are confirmed; the five slides are clean."
+}
