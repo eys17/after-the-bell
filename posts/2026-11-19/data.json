@@ -1,0 +1,157 @@
+{
+ "date": "2026-11-19",
+ "generated_utc": "2026-11-19T22:05:16+00:00",
+ "indices": {
+  "S&P 500": {
+   "close": 7175.83,
+   "chg": -2.02
+  },
+  "Nasdaq": {
+   "close": 23879.2,
+   "chg": -2.25
+  },
+  "Dow": {
+   "close": 49097.06,
+   "chg": -2.19
+  }
+ },
+ "breadth_up": 38,
+ "breadth_down": 464,
+ "n": 503,
+ "winners": [
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "sector": "Information Technology",
+   "sub_industry": "Systems Software",
+   "close": 361.73,
+   "chg": 6.42,
+   "sub_industry_peers": {
+    "TWLO": -8.75,
+    "CRWD": 2.71,
+    "MSFT": -1.97,
+    "NOW": -1.9
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "OKTA",
+   "name": "Okta, Inc.",
+   "sector": "Information Technology",
+   "sub_industry": "Application Software",
+   "close": 206.85,
+   "chg": 5.75,
+   "sub_industry_peers": {
+    "ADSK": -3.77,
+    "CRM": -3.72,
+    "TRMB": -3.62,
+    "ORCL": -2.92
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "P",
+   "name": "Everpure",
+   "sector": "Information Technology",
+   "sub_industry": "Technology Hardware, Storage & Peripherals",
+   "close": 105.5,
+   "chg": 4.73,
+   "sub_industry_peers": {
+    "WDC": 2.98,
+    "HPQ": -2.93,
+    "SNDK": -2.71,
+    "SMCI": -2.17
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "WSM",
+   "name": "Williams-Sonoma, Inc.",
+   "sector": "Consumer Discretionary",
+   "sub_industry": "Homefurnishing Retail",
+   "close": 220.66,
+   "chg": -15.16,
+   "sub_industry_peers": {},
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "TWLO",
+   "name": "Twilio",
+   "sector": "Information Technology",
+   "sub_industry": "Systems Software",
+   "close": 178.78,
+   "chg": -8.75,
+   "sub_industry_peers": {
+    "PANW": 6.42,
+    "CRWD": 2.71,
+    "MSFT": -1.97,
+    "NOW": -1.9
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices",
+   "sector": "Information Technology",
+   "sub_industry": "Semiconductors",
+   "close": 489.19,
+   "chg": -7.72,
+   "sub_industry_peers": {
+    "MRVL": -4.86,
+    "SWKS": -4.57,
+    "NVDA": -3.3,
+    "TXN": -2.28
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "sectors": [
+  [
+   "Energy",
+   -1.05
+  ],
+  [
+   "Utilities",
+   -1.14
+  ],
+  [
+   "Information Technology",
+   -1.6
+  ],
+  [
+   "Consumer Staples",
+   -1.61
+  ],
+  [
+   "Financials",
+   -1.61
+  ],
+  [
+   "Real Estate",
+   -1.66
+  ],
+  [
+   "Industrials",
+   -1.68
+  ],
+  [
+   "Health Care",
+   -1.85
+  ],
+  [
+   "Materials",
+   -2.07
+  ],
+  [
+   "Consumer Discretionary",
+   -2.77
+  ],
+  [
+   "Communication Services",
+   -3.0
+  ]
+ ],
+ "source": "Yahoo Finance closing prices, S&P 500 constituents"
+}

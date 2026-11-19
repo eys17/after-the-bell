@@ -1,0 +1,125 @@
+{
+ "brand": "After the Bell",
+ "date": "2026-11-19",
+ "date_label": "Thu 19 Nov 2026",
+ "headline": "Every sector falls on Anthropic's big day",
+ "headline_em": "Anthropic",
+ "context": "An early rally faded after Anthropic's stock market debut, and selling spread across the market as investors cooled on AI stocks.",
+ "spx_close": 7175.83,
+ "spx_chg": -2.02,
+ "other_indices": {
+  "Nasdaq": {
+   "close": 23879.2,
+   "chg": -2.25
+  },
+  "Dow": {
+   "close": 49097.06,
+   "chg": -2.19
+  }
+ },
+ "breadth_up": 38,
+ "breadth_down": 464,
+ "winners": [
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "chg": 6.42,
+   "why": "Results beat forecasts: profit per share of $1.05 vs $0.97 expected. It also raised its full-year sales forecast."
+  },
+  {
+   "ticker": "OKTA",
+   "name": "Okta, Inc.",
+   "chg": 5.75,
+   "why": "No company news. Security stocks rallied for a second day, lifted by Palo Alto's higher forecast."
+  },
+  {
+   "ticker": "P",
+   "name": "Everpure",
+   "chg": 4.73,
+   "why": "The data storage firm's results beat forecasts, with profit per share $0.08 above estimates. It also raised its yearly sales forecast."
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "WSM",
+   "name": "Williams-Sonoma, Inc.",
+   "chg": -15.16,
+   "why": "Profit only just beat forecasts, sales fell slightly short, and it kept its yearly forecast unchanged."
+  },
+  {
+   "ticker": "TWLO",
+   "name": "Twilio",
+   "chg": -8.75,
+   "why": "No company news. It fell with the wider tech sell-off, as software peers Microsoft and ServiceNow also dropped."
+  },
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices",
+   "chg": -7.72,
+   "why": "Fell after Hunterbrook, which bets against it, claimed its chips reached a blacklisted Chinese firm."
+  }
+ ],
+ "sectors": [
+  [
+   "Energy",
+   -1.05
+  ],
+  [
+   "Utilities",
+   -1.14
+  ],
+  [
+   "Tech",
+   -1.6
+  ],
+  [
+   "Consumer Staples",
+   -1.61
+  ],
+  [
+   "Financials",
+   -1.61
+  ],
+  [
+   "Real Estate",
+   -1.66
+  ],
+  [
+   "Industrials",
+   -1.68
+  ],
+  [
+   "Health Care",
+   -1.85
+  ],
+  [
+   "Materials",
+   -2.07
+  ],
+  [
+   "Consumer Discr.",
+   -2.77
+  ],
+  [
+   "Communication",
+   -3.0
+  ]
+ ],
+ "sector_note": "Median move of stocks in each S&P 500 sector",
+ "chart_title": "Every sector fell, energy the least",
+ "watch": [
+  {
+   "when": "Wed",
+   "title": "Inflation and GDP data",
+   "text": "PCE, the Fed's preferred inflation gauge, plus a revised growth figure for Q3.",
+   "source": "https://admiralmarkets.com/analytics/traders-blog/stock-market-hours-thanksgiving-black-friday-2026"
+  },
+  {
+   "when": "Thu",
+   "title": "Thanksgiving closure",
+   "text": "US stock markets shut for the holiday, then open for a half day on Friday.",
+   "source": "https://admiralmarkets.com/analytics/traders-blog/stock-market-hours-thanksgiving-black-friday-2026"
+  }
+ ],
+ "question": "Did Anthropic's big debut pull money out of other AI stocks?"
+}

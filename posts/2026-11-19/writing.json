@@ -1,0 +1,64 @@
+{
+  "headline": "Every sector falls on Anthropic's big day",
+  "headline_em": "Anthropic",
+  "context": "An early rally faded after Anthropic's stock market debut, and selling spread across the market as investors cooled on AI stocks.",
+  "chart_title": "Every sector fell, energy the least",
+  "why": {
+    "PANW": {
+      "text": "Results beat forecasts: profit per share of $1.05 vs $0.97 expected. It also raised its full-year sales forecast.",
+      "sources": [
+        "https://parameter.io/okta-stock-jumps-as-cyber-fears-and-palo-alto-results-lift-security-names/",
+        "https://vistapglobal.com/stock-market-today-november-19-2026-anthropic-ipo-pops-wall-street-loses-its-appetite-amd-ant-eprx-insm-jpm-ma-modd-panw-ser-sls-v-wmt/"
+      ]
+    },
+    "OKTA": {
+      "text": "No company news. Security stocks rallied for a second day, lifted by Palo Alto's higher forecast.",
+      "sources": [
+        "https://finance.yahoo.com/markets/stocks/articles/okta-stocks-jump-8-14-183850134.html",
+        "https://parameter.io/okta-stock-jumps-as-cyber-fears-and-palo-alto-results-lift-security-names/"
+      ]
+    },
+    "P": {
+      "text": "The data storage firm's results beat forecasts, with profit per share $0.08 above estimates. It also raised its yearly sales forecast.",
+      "sources": [
+        "https://seekingalpha.com/news/4674663-everpure-jumps-as-wedbush-praises-strong-earnings-earnings?feed_item_type=news"
+      ]
+    },
+    "WSM": {
+      "text": "Profit only just beat forecasts, sales fell slightly short, and it kept its yearly forecast unchanged.",
+      "sources": [
+        "https://www.investing.com/news/stock-market-news/why-is-williamssonoma-stock-sliding-today-93CH-5039412",
+        "https://www.sec.gov/Archives/edgar/data/0000719955/000071995526000244/exhibit991fy2026q3earnings.htm"
+      ]
+    },
+    "TWLO": {
+      "text": "No company news. It fell with the wider tech sell-off, as software peers Microsoft and ServiceNow also dropped.",
+      "sources": [
+        "https://seekingalpha.com/news/4674898-twilio-slumps-9-amid-broader-tech-decline",
+        "https://www.tokenpost.com/news/investing/61685"
+      ]
+    },
+    "AMD": {
+      "text": "Fell after Hunterbrook, which bets against it, claimed its chips reached a blacklisted Chinese firm.",
+      "sources": [
+        "https://vistapglobal.com/stock-market-today-november-19-2026-anthropic-ipo-pops-wall-street-loses-its-appetite-amd-ant-eprx-insm-jpm-ma-modd-panw-ser-sls-v-wmt/",
+        "https://econcurrents.substack.com/p/19-november-2026-market-close-and"
+      ]
+    }
+  },
+  "watch": [
+    {
+      "when": "Wed",
+      "title": "Inflation and GDP data",
+      "text": "PCE, the Fed's preferred inflation gauge, plus a revised growth figure for Q3.",
+      "source": "https://admiralmarkets.com/analytics/traders-blog/stock-market-hours-thanksgiving-black-friday-2026"
+    },
+    {
+      "when": "Thu",
+      "title": "Thanksgiving closure",
+      "text": "US stock markets shut for the holiday, then open for a half day on Friday.",
+      "source": "https://admiralmarkets.com/analytics/traders-blog/stock-market-hours-thanksgiving-black-friday-2026"
+    }
+  ],
+  "question": "Did Anthropic's big debut pull money out of other AI stocks?"
+}

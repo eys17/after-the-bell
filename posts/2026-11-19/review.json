@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "gates": {"reasons": "PASS", "story": "PASS", "watch": "PASS", "no_advice": "PASS", "fair": "PASS", "looks": "PASS"},
+  "fixes": [],
+  "notes": "All six reasons checked against sources dated Nov 19 (PANW $1.05 vs $0.97 and raised guide; Everpure +$0.08 beat and raised guide; WSM penny beat, slight sales miss, outlook kept; OKTA/TWLO no company news; AMD Hunterbrook short-seller allegations, attributed as claims); early-rally fade after Anthropic debut matches wraps; PCE/GDP Wed 25 Nov and Thanksgiving close Thu 26 Nov with Fri half day confirmed; slides clean."
+}
