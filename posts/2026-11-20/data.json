@@ -1,0 +1,162 @@
+{
+ "date": "2026-11-20",
+ "generated_utc": "2026-11-20T22:05:30+00:00",
+ "indices": {
+  "S&P 500": {
+   "close": 6910.39,
+   "chg": -3.7
+  },
+  "Nasdaq": {
+   "close": 22617.73,
+   "chg": -5.28
+  },
+  "Dow": {
+   "close": 48147.33,
+   "chg": -1.93
+  }
+ },
+ "breadth_up": 123,
+ "breadth_down": 377,
+ "n": 503,
+ "winners": [
+  {
+   "ticker": "GPN",
+   "name": "Global Payments",
+   "sector": "Financials",
+   "sub_industry": "Transaction & Payment Processing Services",
+   "close": 91.83,
+   "chg": 9.95,
+   "sub_industry_peers": {
+    "XYZ": -6.16,
+    "PYPL": -5.46,
+    "FISV": -1.31,
+    "CPAY": -1.02
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "GIS",
+   "name": "General Mills",
+   "sector": "Consumer Staples",
+   "sub_industry": "Packaged Foods & Meats",
+   "close": 35.74,
+   "chg": 3.65,
+   "sub_industry_peers": {
+    "MKC": 3.43,
+    "HRL": 2.08,
+    "TSN": 1.97,
+    "KHC": 1.89
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "MKC",
+   "name": "McCormick & Company",
+   "sector": "Consumer Staples",
+   "sub_industry": "Packaged Foods & Meats",
+   "close": 47.4,
+   "chg": 3.43,
+   "sub_industry_peers": {
+    "GIS": 3.65,
+    "HRL": 2.08,
+    "TSN": 1.97,
+    "KHC": 1.89
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "SNDK",
+   "name": "Sandisk",
+   "sector": "Information Technology",
+   "sub_industry": "Technology Hardware, Storage & Peripherals",
+   "close": 79.24,
+   "chg": -16.05,
+   "sub_industry_peers": {
+    "P": -12.75,
+    "STX": -12.35,
+    "WDC": -12.02,
+    "DELL": -11.04
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "BE",
+   "name": "Bloom Energy",
+   "sector": "Industrials",
+   "sub_industry": "Electrical Components & Equipment",
+   "close": 142.39,
+   "chg": -15.3,
+   "sub_industry_peers": {
+    "VRT": -10.14,
+    "ETN": -5.82,
+    "ROK": -5.53,
+    "EMR": -4.23
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "sector": "Information Technology",
+   "sub_industry": "Semiconductors",
+   "close": 125.53,
+   "chg": -14.01,
+   "sub_industry_peers": {
+    "MU": -13.89,
+    "AMD": -13.25,
+    "AVGO": -12.19,
+    "MPWR": -11.87
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "sectors": [
+  [
+   "Consumer Staples",
+   0.82
+  ],
+  [
+   "Utilities",
+   -0.17
+  ],
+  [
+   "Real Estate",
+   -0.38
+  ],
+  [
+   "Health Care",
+   -0.75
+  ],
+  [
+   "Energy",
+   -1.26
+  ],
+  [
+   "Financials",
+   -1.71
+  ],
+  [
+   "Consumer Discretionary",
+   -1.77
+  ],
+  [
+   "Materials",
+   -1.88
+  ],
+  [
+   "Communication Services",
+   -1.9
+  ],
+  [
+   "Industrials",
+   -2.79
+  ],
+  [
+   "Information Technology",
+   -7.28
+  ]
+ ],
+ "source": "Yahoo Finance closing prices, S&P 500 constituents"
+}

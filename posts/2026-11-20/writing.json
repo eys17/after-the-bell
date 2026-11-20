@@ -1,0 +1,19 @@
+{
+  "headline": "Chip crash drags S&P 500 into correction",
+  "headline_em": "correction",
+  "context": "Chipmakers led a broad AI sell-off, and a report that the SEC is looking into Nvidia's accounting added to the gloom.",
+  "chart_title": "Tech plunged, only staples rose",
+  "why": {
+    "GPN": {"text": "Jumped on reports that private equity firm GTCR is weighing a takeover of the payments company worth about $50 billion.", "sources": ["https://tradersagency.com/blog/global-payments-shares-surge-after-report-gtcr-weighing-dollar50-billion-takeover", "https://www.gurufocus.com/news/9213181/global-payments-gpn-shares-surge-nearly-11-amid-potential-50b-takeover-talks"]},
+    "GIS": {"text": "No company news. Packaged food makers rose together, and consumer staples was the only sector to gain.", "sources": []},
+    "MKC": {"text": "No company news. It rose alongside food peers such as General Mills as staples stocks held up.", "sources": []},
+    "SNDK": {"text": "Market tracker TrendForce warned that flash memory prices are falling and Chinese cloud firms may cut orders next year.", "sources": ["https://www.fool.com/investing/2026/11/20/why-sandisk-stock-dropped-again-today/"]},
+    "BE": {"text": "Sold off with other AI infrastructure stocks, as power equipment peers such as Vertiv also fell sharply.", "sources": ["https://247wallst.com/investing/2026/11/20/bloom-energy-tumbles-10-despite-bmo-upgrade-with-230-target-fuelcell-energy-slides-7-plug-power-drops-3/"]},
+    "NVDA": {"text": "Chipmakers sank together, and Reuters reported that the SEC is looking into Nvidia's accounting.", "sources": ["https://lufkindailynews.com/news_reuters/business/nvidias-accounting-is-a-focus-of-us-sec-investigation-sources-say/article_c8f7024b-2150-5b9b-b932-82c34f92f8cb.html", "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/"]}
+  },
+  "watch": [
+    {"when": "Wed", "title": "Inflation and GDP data", "text": "PCE, the Fed's preferred inflation gauge, plus a revised growth figure for Q3.", "source": "https://admiralmarkets.com/analytics/traders-blog/stock-market-hours-thanksgiving-black-friday-2026"},
+    {"when": "Thu", "title": "Thanksgiving closure", "text": "US stock markets shut for the holiday, then open for a half day on Friday.", "source": "https://admiralmarkets.com/analytics/traders-blog/stock-market-hours-thanksgiving-black-friday-2026"}
+  ],
+  "question": "Is the AI sell-off a healthy reset or a sign of deeper trouble?"
+}

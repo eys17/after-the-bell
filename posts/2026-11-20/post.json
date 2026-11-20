@@ -1,0 +1,125 @@
+{
+ "brand": "After the Bell",
+ "date": "2026-11-20",
+ "date_label": "Fri 20 Nov 2026",
+ "headline": "Chip crash drags S&P 500 into correction",
+ "headline_em": "correction",
+ "context": "Chipmakers led a broad AI sell-off, and a report that the SEC is looking into Nvidia's accounting added to the gloom.",
+ "spx_close": 6910.39,
+ "spx_chg": -3.7,
+ "other_indices": {
+  "Nasdaq": {
+   "close": 22617.73,
+   "chg": -5.28
+  },
+  "Dow": {
+   "close": 48147.33,
+   "chg": -1.93
+  }
+ },
+ "breadth_up": 123,
+ "breadth_down": 377,
+ "winners": [
+  {
+   "ticker": "GPN",
+   "name": "Global Payments",
+   "chg": 9.95,
+   "why": "Jumped on reports that private equity firm GTCR is weighing a takeover of the payments company worth about $50 billion."
+  },
+  {
+   "ticker": "GIS",
+   "name": "General Mills",
+   "chg": 3.65,
+   "why": "No company news. Packaged food makers rose together, and consumer staples was the only sector to gain."
+  },
+  {
+   "ticker": "MKC",
+   "name": "McCormick & Company",
+   "chg": 3.43,
+   "why": "No company news. It rose alongside food peers such as General Mills as staples stocks held up."
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "SNDK",
+   "name": "Sandisk",
+   "chg": -16.05,
+   "why": "Market tracker TrendForce warned that flash memory prices are falling and Chinese cloud firms may cut orders next year."
+  },
+  {
+   "ticker": "BE",
+   "name": "Bloom Energy",
+   "chg": -15.3,
+   "why": "Sold off with other AI infrastructure stocks, as power equipment peers such as Vertiv also fell sharply."
+  },
+  {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "chg": -14.01,
+   "why": "Chipmakers sank together, and Reuters reported that the SEC is looking into Nvidia's accounting."
+  }
+ ],
+ "sectors": [
+  [
+   "Consumer Staples",
+   0.82
+  ],
+  [
+   "Utilities",
+   -0.17
+  ],
+  [
+   "Real Estate",
+   -0.38
+  ],
+  [
+   "Health Care",
+   -0.75
+  ],
+  [
+   "Energy",
+   -1.26
+  ],
+  [
+   "Financials",
+   -1.71
+  ],
+  [
+   "Consumer Discr.",
+   -1.77
+  ],
+  [
+   "Materials",
+   -1.88
+  ],
+  [
+   "Communication",
+   -1.9
+  ],
+  [
+   "Industrials",
+   -2.79
+  ],
+  [
+   "Tech",
+   -7.28
+  ]
+ ],
+ "sector_note": "Median move of stocks in each S&P 500 sector",
+ "chart_title": "Tech plunged, only staples rose",
+ "watch": [
+  {
+   "when": "Wed",
+   "title": "Inflation and GDP data",
+   "text": "PCE, the Fed's preferred inflation gauge, plus a revised growth figure for Q3.",
+   "source": "https://admiralmarkets.com/analytics/traders-blog/stock-market-hours-thanksgiving-black-friday-2026"
+  },
+  {
+   "when": "Thu",
+   "title": "Thanksgiving closure",
+   "text": "US stock markets shut for the holiday, then open for a half day on Friday.",
+   "source": "https://admiralmarkets.com/analytics/traders-blog/stock-market-hours-thanksgiving-black-friday-2026"
+  }
+ ],
+ "question": "Is the AI sell-off a healthy reset or a sign of deeper trouble?"
+}

@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "gates": {"reasons": "PASS", "story": "PASS", "watch": "PASS", "no_advice": "PASS", "fair": "PASS", "looks": "PASS"},
+  "fixes": [],
+  "notes": "Verified: GTCR ~$50B buyout report on Nov 20 (revives talks reported dropped Nov 12); Reuters Nov 20 SEC probe of Nvidia accounting; TrendForce NAND outlook (SNDK also split 8-for-1 today, data looks adjusted); BE fell in AI-infra sell-off; S&P 500 closed 6,910.39 in correction (>10% off Oct 6 high); PCE and Q3 GDP second estimate Wed Nov 25, Thanksgiving Thu Nov 26. Slides clean."
+}
