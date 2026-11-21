@@ -46,8 +46,8 @@ CSS = """
 .ig .n { font:700 120px/1 JM; color:var(--amber); }
 .ig .l { margin-top:16px; font:600 30px/1.35 IN; color:#C9CDD3; }
 .cmp { margin-top:30px; display:flex; flex-direction:column; gap:16px; }
-.cmp .r { display:grid; grid-template-columns:330px 1fr 130px; gap:18px; align-items:center; font:600 26px/1.25 IN; }
-.cmp .tr { height:30px; background:#EEEBE3; border-radius:8px; position:relative; overflow:hidden; }
+.cmp .r { display:grid; grid-template-columns:330px minmax(0,1fr) 150px; gap:18px; align-items:center; font:600 26px/1.25 IN; }
+.cmp .tr { min-width:0; height:30px; background:#EEEBE3; border-radius:8px; position:relative; overflow:hidden; }
 .cmp .tr i { position:absolute; left:0; top:0; bottom:0; border-radius:8px; }
 .cmp .v { font:700 30px/1 JM; text-align:right; }
 .fine { margin-top:22px; font:400 21px/1.4 IN; color:var(--muted); }
@@ -174,12 +174,14 @@ def assumes():
     a = d["assumptions"]
     if d.get("implied_growth") is not None:
         g = d["implied_growth"]
-        m = max(abs(g), abs(d.get("revenue_cagr") or 0), 1)
-        rows = [(f"Sales grew ({d['cagr_years']} yrs)", d.get("revenue_cagr")), ("Price assumes (next 10 yrs)", g)]
+        past = (f"Cash flow grew (last {d['cagr_years']} yrs)", d.get("fcf_cagr")) if d.get("fcf_cagr") is not None else (f"Sales grew (last {d['cagr_years']} yrs)*", d.get("revenue_cagr"))
+        rows = [past, ("Price assumes (next 10 yrs)", g)]
+        m = max([abs(v) for _, v in rows if v is not None] + [1])
         cmp = "".join(f'<div class="r"><div>{lab}</div><div class="tr"><i style="width:{abs(v)/m*100:.0f}%;background:{"#F2B33D" if "assumes" in lab else "#0E1116"}"></i></div><div class="v">{pct(v, 1)}</div></div>' for lab, v in rows if v is not None)
         core = f"""<div class="ig"><div class="n">{pct(g, 1)}</div><div class="l">a year: the growth in free cash flow, for 10 years, that today’s price is betting on</div></div>
           <div class="cmp">{cmp}</div>"""
-        fine = f"Reverse DCF: today’s company value ({money(d['enterprise_value'])} incl. debt, minus cash) vs free cash flow of {money(d['fcf_ttm'])} ({e(d['fcf_basis'])}), a {a['discount_rate']:.0f}% yearly return investors want, and {a['terminal_growth']:.0f}% growth after year {a['years']}. A way to read the price, not a forecast."
+        star = "*Sales shown because cash-flow history isn't usable. " if d.get("fcf_cagr") is None else ""
+        fine = star + f"Reverse DCF: today’s company value ({money(d['enterprise_value'])} incl. debt, minus cash) vs free cash flow of {money(d['fcf_ttm'])} ({e(d['fcf_basis'])}), a {a['discount_rate']:.0f}% yearly return investors want, and {a['terminal_growth']:.0f}% growth after year {a['years']}. A way to read the price, not a forecast."
     else:
         core = f"""<div class="ig"><div class="n">{d['pe_trailing']:.0f}×</div><div class="l">price ÷ last year’s profit. Cash flow is too small or negative to work out what growth the price assumes.</div></div>""" if d.get("pe_trailing") else ""
         fine = "Free cash flow is negative or missing, so the growth the price implies can’t be worked out."

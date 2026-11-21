@@ -75,10 +75,13 @@ def main(ticker: str, sunday: str) -> int:
     last = annual[-1]
     margins = {k: round(last[v] / last["revenue"] * 100, 1) if last.get(v) is not None and last["revenue"] else None
                for k, v in [("gross", "gross_profit"), ("operating", "operating_income"), ("net", "net_income"), ("fcf", "fcf")]}
-    cagr = None
+    cagr, fcf_cagr = None, None
     if len(annual) >= 3 and annual[0]["revenue"] > 0:
         n = len(annual) - 1
         cagr = round(((annual[-1]["revenue"] / annual[0]["revenue"]) ** (1 / n) - 1) * 100, 1)
+        f0, f1 = annual[0].get("fcf"), annual[-1].get("fcf")
+        if f0 and f1 and f0 > 0 and f1 > 0:
+            fcf_cagr = round(((f1 / f0) ** (1 / n) - 1) * 100, 1)
 
     qrev = row(q, "Total Revenue")
     quarters = [dict(period_end=str(c.date()), revenue=float(qrev[c])) for c in (qrev.dropna().index[:6][::-1] if qrev is not None else [])]
@@ -125,8 +128,9 @@ def main(ticker: str, sunday: str) -> int:
         pe_forward=round(info["forwardPE"], 1) if info.get("forwardPE") else None,
         dividend_yield=round(info["dividendYield"], 2) if info.get("dividendYield") else None,
         week52=[info.get("fiftyTwoWeekLow"), info.get("fiftyTwoWeekHigh")],
-        perf_1y=perf(365), perf_5y=perf(365 * 5 - 5),
-        annual=annual, revenue_cagr=cagr, cagr_years=len(annual) - 1, margins=margins, quarters=quarters,
+        perf_1y=perf(365), perf_5y=round(chart[-1]["stock"] - 100, 1) if chart else None,
+        chart_start=chart[0]["week"] if chart else None,
+        annual=annual, revenue_cagr=cagr, fcf_cagr=fcf_cagr, cagr_years=len(annual) - 1, margins=margins, quarters=quarters,
         fcf_ttm=fcf_ttm, fcf_basis=fcf_basis,
         implied_growth=ig, assumptions=dict(discount_rate=DISCOUNT * 100, terminal_growth=TERMINAL * 100, years=YEARS),
         next_earnings=nxt, price_chart=chart,

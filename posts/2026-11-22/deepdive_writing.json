@@ -1,7 +1,7 @@
 {
  "ticker": "NVDA",
  "why_this_company": {
-  "text": "Nvidia dominated the week: results on Wednesday that beat forecasts, then a 23% weekly fall as investors worried about its CEO's exit and an export probe.",
+  "text": "Nvidia dominated the week: results on Tuesday that beat forecasts, then a 23% weekly fall as investors worried about its CEO's exit and an export probe.",
   "sources": [
    "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
    "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
@@ -33,10 +33,10 @@
  },
  "takeaways": {
   "price": "Even after falling about 30% in a year, it has still left the S&P 500 far behind over five years.",
-  "growth": "Sales roughly doubled each year. The newest quarter ($115.8B, +103%) isn't in these figures yet.",
+  "growth": "Sales doubled each year on average over three years. The newest quarter ($115.8B, +103%) isn't in these figures yet.",
   "margins": "About 56 cents of every sales dollar became profit last year: rare for a company selling hardware.",
   "health": "Far more cash than debt, and it spent about $40B buying back its own shares last year.",
-  "assumes": "The price only bets on about 7% yearly cash-flow growth, far below its recent pace. The debate isn't growth today, it's how long it lasts."
+  "assumes": "Today's price implies about 7% yearly growth in free cash flow for 10 years. The debate is how long its fast growth can last."
  },
  "bull": [
   {
@@ -67,7 +67,7 @@
    "source_name": "Motley Fool"
   },
   {
-   "text": "It has given about $118B of financial guarantees linked to customers' data-centre projects.",
+   "text": "It has disclosed about $118B of financial guarantees, including credit support for a planned data-centre campus.",
    "source": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
    "source_name": "Motley Fool"
   }

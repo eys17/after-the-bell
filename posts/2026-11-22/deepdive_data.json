@@ -18,7 +18,8 @@
   243.37
  ],
  "perf_1y": -30.3,
- "perf_5y": 300.2,
+ "perf_5y": 282.2,
+ "chart_start": "2021-11-19",
  "annual": [
   {
    "fy": "FY2023",
@@ -66,6 +67,7 @@
   }
  ],
  "revenue_cagr": 100.0,
+ "fcf_cagr": 193.9,
  "cagr_years": 3,
  "margins": {
   "gross": 71.1,

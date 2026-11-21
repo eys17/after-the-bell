@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "gates": {"reasons": "PASS", "story": "PASS", "watch": "PASS", "no_advice": "PASS", "fair": "PASS", "looks": "PASS"},
+  "fixes": [],
+  "notes": "Second review: all four earlier fixes applied, and perf_5y (+282.2%) now matches where the chart ends (382.2). Against the Motley Fool source: $115.8B (+103%), data centres $107.6B (93%), about $130B guidance, FY2028 growth outlook raised from 70% to 75%, gross margin near 75%, Huang's resignation and the board's 'does not intend to reinstate', Heidrick search, 10-Q 'in the coming weeks', and $118B of guarantees all match. The export probe is hedged as the source puts it. Dell reports Tue 24 Nov (StockTitan). The takeaways match deepdive_data.json, and the price slide now explains the number without judging it. NVDA is the first deep dive, so it is not a repeat. Minor, not blocking: the Yahoo source for why_this_company describes a reported SEC accounting probe, not an export probe (the export probe is in the Fool source). That field is not on the slides."
+}
