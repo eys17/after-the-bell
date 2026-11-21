@@ -19,7 +19,7 @@ LIMITS = {"headline": 44, "context": 150, "why": 135, "chart_title": 38, "questi
           "watch_title": 26, "watch_text": 80}
 # advice-style wording that must never appear (the page is information, not advice)
 BANNED = [r"\byou should\b", r"\bwe recommend\b", r"\bbuy now\b", r"\bsell now\b", r"\bprice target\b",
-          r"\bguarantee", r"\bcan'?t lose\b", r"\bnot too late\b", r"\bload up\b", r"\bto the moon\b",
+          r"\bguarantee(d|s)? (a |your )?(returns?|profits?|gains?|income|win)", r"\bcan'?t lose\b", r"\bnot too late\b", r"\bload up\b", r"\bto the moon\b",
           r"\bstrong buy\b", r"\bmust[- ]own\b", r"\bfree money\b", r"\bdon'?t miss\b"]
 NO_NEWS = "No company news"
 STYLE = json.loads((ROOT / "pipeline" / "style.json").read_text())

@@ -62,12 +62,16 @@ def main(day: str) -> int:
         print(day, "already published - nothing to do"); return 0
     if not (d / "APPROVED").exists():
         print(day, "not approved - refusing to post"); return 1
-    age = (dt.date.today() - dt.date.fromisoformat(day)).days
+    from zoneinfo import ZoneInfo
+    today_ny = dt.datetime.now(ZoneInfo("America/New_York")).date()
+    if dt.date.fromisoformat(day) > today_ny:
+        print(day, "is scheduled for a later day - not posting yet"); return 0
+    age = (today_ny - dt.date.fromisoformat(day)).days
     if age > 2:
         print(day, f"is {age} days old - too stale to post"); return 1
     slides = sorted(d.glob("slide_*.jpg"), key=lambda p: int(p.stem.split("_")[1]))
-    if len(slides) != 5:
-        print("expected 5 slides, found", len(slides)); return 1
+    if not 5 <= len(slides) <= 10:
+        print("expected 5-10 slides, found", len(slides)); return 1
     caption = (d / "caption.txt").read_text()
     repo, sha, uid = os.environ["GITHUB_REPOSITORY"], os.environ["GITHUB_SHA"], os.environ["IG_USER_ID"]
     urls = [f"https://raw.githubusercontent.com/{repo}/{sha}/posts/{day}/{p.name}" for p in slides]

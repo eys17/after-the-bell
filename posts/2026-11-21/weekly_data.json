@@ -1,0 +1,347 @@
+{
+ "saturday": "2026-11-21",
+ "week_start": "2026-11-16",
+ "week_end": "2026-11-20",
+ "sessions": 5,
+ "generated_utc": "2026-11-21T22:47:00+00:00",
+ "indices": {
+  "S&P 500": {
+   "close": 6910.39,
+   "chg": -8.61,
+   "ytd": 0.95
+  },
+  "Nasdaq": {
+   "close": 22617.73,
+   "chg": -10.02
+  },
+  "Dow": {
+   "close": 48147.33,
+   "chg": -8.02
+  }
+ },
+ "spx_days": [
+  {
+   "date": "2026-11-16",
+   "day": "Mon",
+   "close": 7416.59,
+   "chg": -1.92
+  },
+  {
+   "date": "2026-11-17",
+   "day": "Tue",
+   "close": 7340.53,
+   "chg": -1.03
+  },
+  {
+   "date": "2026-11-18",
+   "day": "Wed",
+   "close": 7323.63,
+   "chg": -0.23
+  },
+  {
+   "date": "2026-11-19",
+   "day": "Thu",
+   "close": 7175.83,
+   "chg": -2.02
+  },
+  {
+   "date": "2026-11-20",
+   "day": "Fri",
+   "close": 6910.39,
+   "chg": -3.7
+  }
+ ],
+ "our_daily_headlines": {
+  "2026-11-16": "Tech sinks a day before Nvidia reports",
+  "2026-11-17": "Software slump drags stocks lower",
+  "2026-11-18": "Dow drops as health insurers slump",
+  "2026-11-19": "Every sector falls on Anthropic's big day",
+  "2026-11-20": "Chip crash drags S&P 500 into correction"
+ },
+ "breadth_up": 32,
+ "breadth_down": 470,
+ "n": 502,
+ "winners": [
+  {
+   "ticker": "TSN",
+   "name": "Tyson Foods",
+   "sector": "Consumer Staples",
+   "sub_industry": "Packaged Foods & Meats",
+   "close": 65.12,
+   "chg": 10.71,
+   "daily": {
+    "2026-11-16": 8.72,
+    "2026-11-17": -0.47,
+    "2026-11-18": 0.94,
+    "2026-11-19": -0.61,
+    "2026-11-20": 1.97
+   },
+   "sub_industry_peers": {
+    "HRL": 6.56,
+    "GIS": 4.14,
+    "MDLZ": -1.87,
+    "HSY": 1.54
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "HRL",
+   "name": "Hormel Foods",
+   "sector": "Consumer Staples",
+   "sub_industry": "Packaged Foods & Meats",
+   "close": 23.54,
+   "chg": 6.56,
+   "daily": {
+    "2026-11-16": 2.81,
+    "2026-11-17": -0.57,
+    "2026-11-18": 2.52,
+    "2026-11-19": -0.39,
+    "2026-11-20": 2.08
+   },
+   "sub_industry_peers": {
+    "TSN": 10.71,
+    "GIS": 4.14,
+    "MDLZ": -1.87,
+    "HSY": 1.54
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "sector": "Information Technology",
+   "sub_industry": "Systems Software",
+   "close": 343.32,
+   "chg": 6.54,
+   "daily": {
+    "2026-11-16": -1.91,
+    "2026-11-17": -2.15,
+    "2026-11-18": 9.9,
+    "2026-11-19": 6.42,
+    "2026-11-20": -5.09
+   },
+   "sub_industry_peers": {
+    "TWLO": -18.52,
+    "NOW": -14.32,
+    "MSFT": -7.33,
+    "GEN": -3.58
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "TSCO",
+   "name": "Tractor Supply",
+   "sector": "Consumer Discretionary",
+   "sub_industry": "Other Specialty Retail",
+   "close": 38.44,
+   "chg": 5.46,
+   "daily": {
+    "2026-11-16": 4.12,
+    "2026-11-17": 1.42,
+    "2026-11-18": 1.35,
+    "2026-11-19": -0.69,
+    "2026-11-20": -0.77
+   },
+   "sub_industry_peers": {
+    "ULTA": -6.8
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "OKTA",
+   "name": "Okta, Inc.",
+   "sector": "Information Technology",
+   "sub_industry": "Application Software",
+   "close": 191.46,
+   "chg": 4.7,
+   "daily": {
+    "2026-11-16": -2.54,
+    "2026-11-17": -2.06,
+    "2026-11-18": 12.07,
+    "2026-11-19": 5.75,
+    "2026-11-20": -7.44
+   },
+   "sub_industry_peers": {
+    "INTU": -20.85,
+    "ORCL": -19.27,
+    "CRM": -17.09,
+    "PLTR": -14.58
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "BE",
+   "name": "Bloom Energy",
+   "sector": "Industrials",
+   "sub_industry": "Electrical Components & Equipment",
+   "close": 142.39,
+   "chg": -25.83,
+   "daily": {
+    "2026-11-16": -7.66,
+    "2026-11-17": -2.15,
+    "2026-11-18": -1.43,
+    "2026-11-19": -1.68,
+    "2026-11-20": -15.3
+   },
+   "sub_industry_peers": {
+    "VRT": -17.73,
+    "ETN": -11.8,
+    "ROK": -9.75,
+    "EMR": -9.29
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "sector": "Information Technology",
+   "sub_industry": "Semiconductors",
+   "close": 594.51,
+   "chg": -23.62,
+   "daily": {
+    "2026-11-16": -7.62,
+    "2026-11-17": -0.92,
+    "2026-11-18": -1.0,
+    "2026-11-19": -2.1,
+    "2026-11-20": -13.89
+   },
+   "sub_industry_peers": {
+    "NVDA": -22.92,
+    "MRVL": -22.0,
+    "AMD": -20.54,
+    "FSLR": -19.72
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "sector": "Information Technology",
+   "sub_industry": "Semiconductors",
+   "close": 125.53,
+   "chg": -22.92,
+   "daily": {
+    "2026-11-16": -4.12,
+    "2026-11-17": -0.44,
+    "2026-11-18": -2.89,
+    "2026-11-19": -3.3,
+    "2026-11-20": -14.01
+   },
+   "sub_industry_peers": {
+    "MU": -23.62,
+    "MRVL": -22.0,
+    "AMD": -20.54,
+    "FSLR": -19.72
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "sector": "Information Technology",
+   "sub_industry": "Communications Equipment",
+   "close": 460.54,
+   "chg": -22.81,
+   "daily": {
+    "2026-11-16": -8.48,
+    "2026-11-17": 2.56,
+    "2026-11-18": -1.59,
+    "2026-11-19": -2.89,
+    "2026-11-20": -13.94
+   },
+   "sub_industry_peers": {
+    "CIEN": -16.46,
+    "ANET": -15.04,
+    "CSCO": -5.23,
+    "MSI": -2.07
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "FCX",
+   "name": "Freeport-McMoRan",
+   "sector": "Materials",
+   "sub_industry": "Copper",
+   "close": 45.99,
+   "chg": -22.37,
+   "daily": {
+    "2026-11-16": -6.84,
+    "2026-11-17": 0.2,
+    "2026-11-18": -6.96,
+    "2026-11-19": -4.53,
+    "2026-11-20": -6.37
+   },
+   "sub_industry_peers": {},
+   "yahoo_headlines": []
+  }
+ ],
+ "sectors": [
+  [
+   "Consumer Staples",
+   -2.28
+  ],
+  [
+   "Utilities",
+   -2.46
+  ],
+  [
+   "Real Estate",
+   -3.7
+  ],
+  [
+   "Health Care",
+   -5.2
+  ],
+  [
+   "Consumer Discretionary",
+   -5.2
+  ],
+  [
+   "Materials",
+   -5.81
+  ],
+  [
+   "Industrials",
+   -5.84
+  ],
+  [
+   "Financials",
+   -7.21
+  ],
+  [
+   "Energy",
+   -7.42
+  ],
+  [
+   "Communication Services",
+   -7.94
+  ],
+  [
+   "Information Technology",
+   -12.58
+  ]
+ ],
+ "stats": {
+  "pct_up": 6,
+  "spx_up_days": 0,
+  "biggest_day_move": {
+   "ticker": "BE",
+   "name": "Bloom Energy",
+   "date": "2026-11-20",
+   "day": "Friday",
+   "chg": -15.3
+  },
+  "best_sector": [
+   "Consumer Staples",
+   -2.28
+  ],
+  "worst_sector": [
+   "Information Technology",
+   -12.58
+  ],
+  "spx_ytd": 0.95
+ },
+ "source": "Yahoo Finance closing prices, S&P 500 constituents"
+}

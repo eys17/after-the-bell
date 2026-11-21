@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
     paths: ["posts/**/APPROVED"]
+  schedule:
+    - cron: "17 14 * * 0"   # Sunday ~9am New York: posts the deep dive approved on Saturday
   workflow_dispatch:
     inputs:
       date:
@@ -27,6 +29,9 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.date }}" ]; then
             echo "dates=${{ github.event.inputs.date }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
+            d=$(TZ=America/New_York date +%F)
+            if [ -f "posts/$d/APPROVED" ] && [ ! -f "posts/$d/PUBLISHED" ]; then echo "dates=$d" >> "$GITHUB_OUTPUT"; else echo "dates=" >> "$GITHUB_OUTPUT"; fi
           else
             d=$(git diff --name-only HEAD~1 HEAD -- 'posts/*/APPROVED' | cut -d/ -f2 | sort -u | tr '\n' ' ')
             echo "dates=$d" >> "$GITHUB_OUTPUT"

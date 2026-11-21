@@ -19,6 +19,11 @@ renewed with the insights permission.
 
 ## 2. Analyse
 
+There are three formats: the weekday post (posts with data.json), the Saturday week in
+review (weekly_data.json) and the Sunday deep dive (deepdive_data.json). Compare like with
+like, and also compare the formats against each other.
+
+
 Compare posts on **saves + shares per 1,000 reach** (the strongest signals of value) and
 on reach itself. Look for patterns in: headline style, the kind of story, the question,
 the day of the week, the cover. Be honest about noise:
@@ -37,6 +42,8 @@ You MAY change:
   the "why", question style, tone). Each new item goes in the Experiments table with its
   start date, hypothesis, and the metric that will judge it.
 - `pipeline/style.json`: hashtags (max 10 in total), the swipe line, the question prefix.
+- Which kinds of company make the best deep dives, and what makes a great fun fact: put
+  these lessons in learnings.md too (the weekend writer reads it).
 
 You MUST NOT change:
 - Anything that weakens accuracy, sourcing or safety: the hard rules in writer.md, the

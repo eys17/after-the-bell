@@ -1,0 +1,1514 @@
+{
+ "ticker": "NVDA",
+ "name": "NVIDIA Corporation",
+ "sector": "Information Technology",
+ "industry": "Semiconductors",
+ "sunday": "2026-11-22",
+ "as_of_close": "2026-11-20",
+ "price": 125.53,
+ "market_cap": 3031172907008.0,
+ "cash": 97731002368.0,
+ "debt": 38148001792.0,
+ "enterprise_value": 2971589906432.0,
+ "pe_trailing": 13.5,
+ "pe_forward": 7.6,
+ "dividend_yield": 0.8,
+ "week52": [
+  124.5,
+  243.37
+ ],
+ "perf_1y": -30.3,
+ "perf_5y": 300.2,
+ "annual": [
+  {
+   "fy": "FY2023",
+   "period_end": "2023-01-31",
+   "revenue": 26974000000.0,
+   "net_income": 4368000000.0,
+   "gross_profit": 15356000000.0,
+   "operating_income": 5577000000.0,
+   "fcf": 3808000000.0,
+   "buybacks": 10039000000.0,
+   "dividends": 398000000.0
+  },
+  {
+   "fy": "FY2024",
+   "period_end": "2024-01-31",
+   "revenue": 60922000000.0,
+   "net_income": 29760000000.0,
+   "gross_profit": 44301000000.0,
+   "operating_income": 32972000000.0,
+   "fcf": 27021000000.0,
+   "buybacks": 9533000000.0,
+   "dividends": 395000000.0
+  },
+  {
+   "fy": "FY2025",
+   "period_end": "2025-01-31",
+   "revenue": 130497000000.0,
+   "net_income": 72880000000.0,
+   "gross_profit": 97858000000.0,
+   "operating_income": 81453000000.0,
+   "fcf": 60853000000.0,
+   "buybacks": 33706000000.0,
+   "dividends": 834000000.0
+  },
+  {
+   "fy": "FY2026",
+   "period_end": "2026-01-31",
+   "revenue": 215938000000.0,
+   "net_income": 120067000000.0,
+   "gross_profit": 153463000000.0,
+   "operating_income": 130387000000.0,
+   "fcf": 96676000000.0,
+   "buybacks": 40086000000.0,
+   "dividends": 974000000.0
+  }
+ ],
+ "revenue_cagr": 100.0,
+ "cagr_years": 3,
+ "margins": {
+  "gross": 71.1,
+  "operating": 60.4,
+  "net": 55.6,
+  "fcf": 44.8
+ },
+ "quarters": [
+  {
+   "period_end": "2025-07-31",
+   "revenue": 46743000000.0
+  },
+  {
+   "period_end": "2025-10-31",
+   "revenue": 57006000000.0
+  },
+  {
+   "period_end": "2026-01-31",
+   "revenue": 68127000000.0
+  },
+  {
+   "period_end": "2026-04-30",
+   "revenue": 81615000000.0
+  },
+  {
+   "period_end": "2026-07-31",
+   "revenue": 96221000000.0
+  }
+ ],
+ "fcf_ttm": 127006000000.0,
+ "fcf_basis": "last 4 reported quarters",
+ "implied_growth": 7.0,
+ "assumptions": {
+  "discount_rate": 9.0,
+  "terminal_growth": 3.0,
+  "years": 10
+ },
+ "next_earnings": null,
+ "price_chart": [
+  {
+   "week": "2021-11-19",
+   "stock": 100.0,
+   "spx": 100.0
+  },
+  {
+   "week": "2021-11-26",
+   "stock": 95.5,
+   "spx": 97.8
+  },
+  {
+   "week": "2021-12-03",
+   "stock": 93.1,
+   "spx": 96.6
+  },
+  {
+   "week": "2021-12-10",
+   "stock": 91.6,
+   "spx": 100.3
+  },
+  {
+   "week": "2021-12-17",
+   "stock": 84.3,
+   "spx": 98.4
+  },
+  {
+   "week": "2021-12-24",
+   "stock": 89.9,
+   "spx": 100.6
+  },
+  {
+   "week": "2021-12-31",
+   "stock": 89.2,
+   "spx": 101.5
+  },
+  {
+   "week": "2022-01-07",
+   "stock": 82.6,
+   "spx": 99.6
+  },
+  {
+   "week": "2022-01-14",
+   "stock": 81.7,
+   "spx": 99.3
+  },
+  {
+   "week": "2022-01-21",
+   "stock": 70.9,
+   "spx": 93.6
+  },
+  {
+   "week": "2022-01-28",
+   "stock": 69.3,
+   "spx": 94.3
+  },
+  {
+   "week": "2022-02-04",
+   "stock": 73.7,
+   "spx": 95.8
+  },
+  {
+   "week": "2022-02-11",
+   "stock": 72.6,
+   "spx": 94.1
+  },
+  {
+   "week": "2022-02-18",
+   "stock": 71.7,
+   "spx": 92.6
+  },
+  {
+   "week": "2022-02-25",
+   "stock": 73.2,
+   "spx": 93.3
+  },
+  {
+   "week": "2022-03-04",
+   "stock": 69.6,
+   "spx": 92.1
+  },
+  {
+   "week": "2022-03-11",
+   "stock": 67.0,
+   "spx": 89.5
+  },
+  {
+   "week": "2022-03-18",
+   "stock": 80.2,
+   "spx": 95.0
+  },
+  {
+   "week": "2022-03-25",
+   "stock": 84.0,
+   "spx": 96.7
+  },
+  {
+   "week": "2022-04-01",
+   "stock": 81.0,
+   "spx": 96.8
+  },
+  {
+   "week": "2022-04-08",
+   "stock": 70.1,
+   "spx": 95.5
+  },
+  {
+   "week": "2022-04-15",
+   "stock": 64.5,
+   "spx": 93.5
+  },
+  {
+   "week": "2022-04-22",
+   "stock": 59.2,
+   "spx": 90.9
+  },
+  {
+   "week": "2022-04-29",
+   "stock": 56.2,
+   "spx": 88.0
+  },
+  {
+   "week": "2022-05-06",
+   "stock": 56.6,
+   "spx": 87.8
+  },
+  {
+   "week": "2022-05-13",
+   "stock": 53.7,
+   "spx": 85.7
+  },
+  {
+   "week": "2022-05-20",
+   "stock": 50.6,
+   "spx": 83.0
+  },
+  {
+   "week": "2022-05-27",
+   "stock": 57.0,
+   "spx": 88.5
+  },
+  {
+   "week": "2022-06-03",
+   "stock": 56.8,
+   "spx": 87.5
+  },
+  {
+   "week": "2022-06-10",
+   "stock": 51.5,
+   "spx": 83.0
+  },
+  {
+   "week": "2022-06-17",
+   "stock": 48.2,
+   "spx": 78.2
+  },
+  {
+   "week": "2022-06-24",
+   "stock": 51.9,
+   "spx": 83.3
+  },
+  {
+   "week": "2022-07-01",
+   "stock": 44.1,
+   "spx": 81.4
+  },
+  {
+   "week": "2022-07-08",
+   "stock": 48.0,
+   "spx": 83.0
+  },
+  {
+   "week": "2022-07-15",
+   "stock": 47.8,
+   "spx": 82.2
+  },
+  {
+   "week": "2022-07-22",
+   "stock": 52.5,
+   "spx": 84.3
+  },
+  {
+   "week": "2022-07-29",
+   "stock": 55.1,
+   "spx": 87.9
+  },
+  {
+   "week": "2022-08-05",
+   "stock": 57.6,
+   "spx": 88.2
+  },
+  {
+   "week": "2022-08-12",
+   "stock": 56.7,
+   "spx": 91.1
+  },
+  {
+   "week": "2022-08-19",
+   "stock": 54.1,
+   "spx": 90.0
+  },
+  {
+   "week": "2022-08-26",
+   "stock": 49.3,
+   "spx": 86.4
+  },
+  {
+   "week": "2022-09-02",
+   "stock": 41.4,
+   "spx": 83.5
+  },
+  {
+   "week": "2022-09-09",
+   "stock": 43.7,
+   "spx": 86.6
+  },
+  {
+   "week": "2022-09-16",
+   "stock": 40.0,
+   "spx": 82.4
+  },
+  {
+   "week": "2022-09-23",
+   "stock": 38.0,
+   "spx": 78.6
+  },
+  {
+   "week": "2022-09-30",
+   "stock": 36.8,
+   "spx": 76.3
+  },
+  {
+   "week": "2022-10-07",
+   "stock": 36.6,
+   "spx": 77.5
+  },
+  {
+   "week": "2022-10-14",
+   "stock": 34.1,
+   "spx": 76.3
+  },
+  {
+   "week": "2022-10-21",
+   "stock": 37.8,
+   "spx": 79.9
+  },
+  {
+   "week": "2022-10-28",
+   "stock": 42.0,
+   "spx": 83.0
+  },
+  {
+   "week": "2022-11-04",
+   "stock": 43.0,
+   "spx": 80.3
+  },
+  {
+   "week": "2022-11-11",
+   "stock": 49.5,
+   "spx": 85.0
+  },
+  {
+   "week": "2022-11-18",
+   "stock": 46.8,
+   "spx": 84.4
+  },
+  {
+   "week": "2022-11-25",
+   "stock": 49.4,
+   "spx": 85.7
+  },
+  {
+   "week": "2022-12-02",
+   "stock": 51.2,
+   "spx": 86.7
+  },
+  {
+   "week": "2022-12-09",
+   "stock": 51.6,
+   "spx": 83.7
+  },
+  {
+   "week": "2022-12-16",
+   "stock": 50.3,
+   "spx": 82.0
+  },
+  {
+   "week": "2022-12-23",
+   "stock": 46.1,
+   "spx": 81.8
+  },
+  {
+   "week": "2022-12-30",
+   "stock": 44.4,
+   "spx": 81.7
+  },
+  {
+   "week": "2023-01-06",
+   "stock": 45.1,
+   "spx": 82.9
+  },
+  {
+   "week": "2023-01-13",
+   "stock": 51.3,
+   "spx": 85.1
+  },
+  {
+   "week": "2023-01-20",
+   "stock": 54.1,
+   "spx": 84.6
+  },
+  {
+   "week": "2023-01-27",
+   "stock": 61.8,
+   "spx": 86.6
+  },
+  {
+   "week": "2023-02-03",
+   "stock": 64.0,
+   "spx": 88.0
+  },
+  {
+   "week": "2023-02-10",
+   "stock": 64.5,
+   "spx": 87.1
+  },
+  {
+   "week": "2023-02-17",
+   "stock": 64.9,
+   "spx": 86.8
+  },
+  {
+   "week": "2023-02-24",
+   "stock": 70.7,
+   "spx": 84.5
+  },
+  {
+   "week": "2023-03-03",
+   "stock": 72.5,
+   "spx": 86.1
+  },
+  {
+   "week": "2023-03-10",
+   "stock": 69.7,
+   "spx": 82.2
+  },
+  {
+   "week": "2023-03-17",
+   "stock": 78.1,
+   "spx": 83.4
+  },
+  {
+   "week": "2023-03-24",
+   "stock": 81.3,
+   "spx": 84.5
+  },
+  {
+   "week": "2023-03-31",
+   "stock": 84.3,
+   "spx": 87.5
+  },
+  {
+   "week": "2023-04-07",
+   "stock": 82.1,
+   "spx": 87.4
+  },
+  {
+   "week": "2023-04-14",
+   "stock": 81.2,
+   "spx": 88.1
+  },
+  {
+   "week": "2023-04-21",
+   "stock": 82.3,
+   "spx": 88.0
+  },
+  {
+   "week": "2023-04-28",
+   "stock": 84.2,
+   "spx": 88.8
+  },
+  {
+   "week": "2023-05-05",
+   "stock": 87.1,
+   "spx": 88.0
+  },
+  {
+   "week": "2023-05-12",
+   "stock": 86.0,
+   "spx": 87.8
+  },
+  {
+   "week": "2023-05-19",
+   "stock": 94.9,
+   "spx": 89.2
+  },
+  {
+   "week": "2023-05-26",
+   "stock": 118.2,
+   "spx": 89.5
+  },
+  {
+   "week": "2023-06-02",
+   "stock": 119.4,
+   "spx": 91.2
+  },
+  {
+   "week": "2023-06-09",
+   "stock": 117.7,
+   "spx": 91.5
+  },
+  {
+   "week": "2023-06-16",
+   "stock": 129.6,
+   "spx": 93.9
+  },
+  {
+   "week": "2023-06-23",
+   "stock": 128.1,
+   "spx": 92.6
+  },
+  {
+   "week": "2023-06-30",
+   "stock": 128.4,
+   "spx": 94.7
+  },
+  {
+   "week": "2023-07-07",
+   "stock": 129.0,
+   "spx": 93.6
+  },
+  {
+   "week": "2023-07-14",
+   "stock": 138.0,
+   "spx": 95.9
+  },
+  {
+   "week": "2023-07-21",
+   "stock": 134.5,
+   "spx": 96.6
+  },
+  {
+   "week": "2023-07-28",
+   "stock": 141.9,
+   "spx": 97.5
+  },
+  {
+   "week": "2023-08-04",
+   "stock": 135.6,
+   "spx": 95.3
+  },
+  {
+   "week": "2023-08-11",
+   "stock": 124.0,
+   "spx": 95.0
+  },
+  {
+   "week": "2023-08-18",
+   "stock": 131.4,
+   "spx": 93.0
+  },
+  {
+   "week": "2023-08-25",
+   "stock": 139.7,
+   "spx": 93.8
+  },
+  {
+   "week": "2023-09-01",
+   "stock": 147.3,
+   "spx": 96.1
+  },
+  {
+   "week": "2023-09-08",
+   "stock": 138.4,
+   "spx": 94.9
+  },
+  {
+   "week": "2023-09-15",
+   "stock": 133.3,
+   "spx": 94.7
+  },
+  {
+   "week": "2023-09-22",
+   "stock": 126.3,
+   "spx": 92.0
+  },
+  {
+   "week": "2023-09-29",
+   "stock": 132.1,
+   "spx": 91.3
+  },
+  {
+   "week": "2023-10-06",
+   "stock": 138.9,
+   "spx": 91.7
+  },
+  {
+   "week": "2023-10-13",
+   "stock": 138.0,
+   "spx": 92.1
+  },
+  {
+   "week": "2023-10-20",
+   "stock": 125.6,
+   "spx": 89.9
+  },
+  {
+   "week": "2023-10-27",
+   "stock": 123.0,
+   "spx": 87.6
+  },
+  {
+   "week": "2023-11-03",
+   "stock": 136.6,
+   "spx": 92.8
+  },
+  {
+   "week": "2023-11-10",
+   "stock": 146.7,
+   "spx": 94.0
+  },
+  {
+   "week": "2023-11-17",
+   "stock": 149.7,
+   "spx": 96.1
+  },
+  {
+   "week": "2023-11-24",
+   "stock": 145.0,
+   "spx": 97.0
+  },
+  {
+   "week": "2023-12-01",
+   "stock": 142.0,
+   "spx": 97.8
+  },
+  {
+   "week": "2023-12-08",
+   "stock": 144.2,
+   "spx": 98.0
+  },
+  {
+   "week": "2023-12-15",
+   "stock": 148.4,
+   "spx": 100.5
+  },
+  {
+   "week": "2023-12-22",
+   "stock": 148.3,
+   "spx": 101.2
+  },
+  {
+   "week": "2023-12-29",
+   "stock": 150.4,
+   "spx": 101.5
+  },
+  {
+   "week": "2024-01-05",
+   "stock": 149.1,
+   "spx": 100.0
+  },
+  {
+   "week": "2024-01-12",
+   "stock": 166.1,
+   "spx": 101.8
+  },
+  {
+   "week": "2024-01-19",
+   "stock": 180.6,
+   "spx": 103.0
+  },
+  {
+   "week": "2024-01-26",
+   "stock": 185.3,
+   "spx": 104.1
+  },
+  {
+   "week": "2024-02-02",
+   "stock": 200.9,
+   "spx": 105.5
+  },
+  {
+   "week": "2024-02-09",
+   "stock": 219.0,
+   "spx": 107.0
+  },
+  {
+   "week": "2024-02-16",
+   "stock": 220.5,
+   "spx": 106.5
+  },
+  {
+   "week": "2024-02-23",
+   "stock": 239.3,
+   "spx": 108.3
+  },
+  {
+   "week": "2024-03-01",
+   "stock": 249.8,
+   "spx": 109.3
+  },
+  {
+   "week": "2024-03-08",
+   "stock": 265.8,
+   "spx": 109.1
+  },
+  {
+   "week": "2024-03-15",
+   "stock": 266.7,
+   "spx": 108.9
+  },
+  {
+   "week": "2024-03-22",
+   "stock": 286.3,
+   "spx": 111.4
+  },
+  {
+   "week": "2024-03-29",
+   "stock": 274.4,
+   "spx": 111.8
+  },
+  {
+   "week": "2024-04-05",
+   "stock": 267.2,
+   "spx": 110.8
+  },
+  {
+   "week": "2024-04-12",
+   "stock": 267.8,
+   "spx": 109.1
+  },
+  {
+   "week": "2024-04-19",
+   "stock": 231.4,
+   "spx": 105.7
+  },
+  {
+   "week": "2024-04-26",
+   "stock": 266.4,
+   "spx": 108.6
+  },
+  {
+   "week": "2024-05-03",
+   "stock": 269.6,
+   "spx": 109.1
+  },
+  {
+   "week": "2024-05-10",
+   "stock": 272.9,
+   "spx": 111.2
+  },
+  {
+   "week": "2024-05-17",
+   "stock": 280.8,
+   "spx": 112.9
+  },
+  {
+   "week": "2024-05-24",
+   "stock": 323.3,
+   "spx": 112.9
+  },
+  {
+   "week": "2024-05-31",
+   "stock": 332.9,
+   "spx": 112.3
+  },
+  {
+   "week": "2024-06-07",
+   "stock": 367.1,
+   "spx": 113.8
+  },
+  {
+   "week": "2024-06-14",
+   "stock": 400.5,
+   "spx": 115.6
+  },
+  {
+   "week": "2024-06-21",
+   "stock": 384.3,
+   "spx": 116.3
+  },
+  {
+   "week": "2024-06-28",
+   "stock": 375.1,
+   "spx": 116.2
+  },
+  {
+   "week": "2024-07-05",
+   "stock": 382.1,
+   "spx": 118.5
+  },
+  {
+   "week": "2024-07-12",
+   "stock": 392.5,
+   "spx": 119.5
+  },
+  {
+   "week": "2024-07-19",
+   "stock": 358.1,
+   "spx": 117.2
+  },
+  {
+   "week": "2024-07-26",
+   "stock": 343.3,
+   "spx": 116.2
+  },
+  {
+   "week": "2024-08-02",
+   "stock": 325.7,
+   "spx": 113.8
+  },
+  {
+   "week": "2024-08-09",
+   "stock": 318.1,
+   "spx": 113.8
+  },
+  {
+   "week": "2024-08-16",
+   "stock": 378.3,
+   "spx": 118.2
+  },
+  {
+   "week": "2024-08-23",
+   "stock": 392.8,
+   "spx": 119.9
+  },
+  {
+   "week": "2024-08-30",
+   "stock": 362.5,
+   "spx": 120.2
+  },
+  {
+   "week": "2024-09-06",
+   "stock": 312.3,
+   "spx": 115.1
+  },
+  {
+   "week": "2024-09-13",
+   "stock": 361.7,
+   "spx": 119.8
+  },
+  {
+   "week": "2024-09-20",
+   "stock": 352.3,
+   "spx": 121.4
+  },
+  {
+   "week": "2024-09-27",
+   "stock": 368.7,
+   "spx": 122.1
+  },
+  {
+   "week": "2024-10-04",
+   "stock": 379.4,
+   "spx": 122.4
+  },
+  {
+   "week": "2024-10-11",
+   "stock": 409.4,
+   "spx": 123.8
+  },
+  {
+   "week": "2024-10-18",
+   "stock": 419.1,
+   "spx": 124.8
+  },
+  {
+   "week": "2024-10-25",
+   "stock": 429.8,
+   "spx": 123.6
+  },
+  {
+   "week": "2024-11-01",
+   "stock": 411.2,
+   "spx": 121.9
+  },
+  {
+   "week": "2024-11-08",
+   "stock": 448.3,
+   "spx": 127.6
+  },
+  {
+   "week": "2024-11-15",
+   "stock": 431.2,
+   "spx": 125.0
+  },
+  {
+   "week": "2024-11-22",
+   "stock": 431.1,
+   "spx": 127.1
+  },
+  {
+   "week": "2024-11-29",
+   "stock": 419.8,
+   "spx": 128.4
+  },
+  {
+   "week": "2024-12-06",
+   "stock": 432.6,
+   "spx": 129.6
+  },
+  {
+   "week": "2024-12-13",
+   "stock": 407.7,
+   "spx": 128.8
+  },
+  {
+   "week": "2024-12-20",
+   "stock": 409.1,
+   "spx": 126.2
+  },
+  {
+   "week": "2024-12-27",
+   "stock": 416.1,
+   "spx": 127.1
+  },
+  {
+   "week": "2025-01-03",
+   "stock": 438.8,
+   "spx": 126.5
+  },
+  {
+   "week": "2025-01-10",
+   "stock": 412.8,
+   "spx": 124.0
+  },
+  {
+   "week": "2025-01-17",
+   "stock": 418.2,
+   "spx": 127.6
+  },
+  {
+   "week": "2025-01-24",
+   "stock": 433.2,
+   "spx": 129.9
+  },
+  {
+   "week": "2025-01-31",
+   "stock": 364.7,
+   "spx": 128.6
+  },
+  {
+   "week": "2025-02-07",
+   "stock": 394.3,
+   "spx": 128.3
+  },
+  {
+   "week": "2025-02-14",
+   "stock": 421.7,
+   "spx": 130.2
+  },
+  {
+   "week": "2025-02-21",
+   "stock": 408.3,
+   "spx": 128.0
+  },
+  {
+   "week": "2025-02-28",
+   "stock": 379.4,
+   "spx": 126.7
+  },
+  {
+   "week": "2025-03-07",
+   "stock": 342.3,
+   "spx": 122.8
+  },
+  {
+   "week": "2025-03-14",
+   "stock": 369.6,
+   "spx": 120.0
+  },
+  {
+   "week": "2025-03-21",
+   "stock": 357.5,
+   "spx": 120.6
+  },
+  {
+   "week": "2025-03-28",
+   "stock": 333.1,
+   "spx": 118.8
+  },
+  {
+   "week": "2025-04-04",
+   "stock": 286.5,
+   "spx": 108.0
+  },
+  {
+   "week": "2025-04-11",
+   "stock": 336.9,
+   "spx": 114.2
+  },
+  {
+   "week": "2025-04-18",
+   "stock": 308.3,
+   "spx": 112.4
+  },
+  {
+   "week": "2025-04-25",
+   "stock": 337.2,
+   "spx": 117.6
+  },
+  {
+   "week": "2025-05-02",
+   "stock": 347.8,
+   "spx": 121.0
+  },
+  {
+   "week": "2025-05-09",
+   "stock": 354.3,
+   "spx": 120.5
+  },
+  {
+   "week": "2025-05-16",
+   "stock": 411.3,
+   "spx": 126.8
+  },
+  {
+   "week": "2025-05-23",
+   "stock": 398.8,
+   "spx": 123.5
+  },
+  {
+   "week": "2025-05-30",
+   "stock": 410.4,
+   "spx": 125.8
+  },
+  {
+   "week": "2025-06-06",
+   "stock": 430.5,
+   "spx": 127.7
+  },
+  {
+   "week": "2025-06-13",
+   "stock": 431.2,
+   "spx": 127.2
+  },
+  {
+   "week": "2025-06-20",
+   "stock": 437.0,
+   "spx": 127.0
+  },
+  {
+   "week": "2025-06-27",
+   "stock": 479.2,
+   "spx": 131.4
+  },
+  {
+   "week": "2025-07-04",
+   "stock": 484.0,
+   "spx": 133.7
+  },
+  {
+   "week": "2025-07-11",
+   "stock": 501.0,
+   "spx": 133.2
+  },
+  {
+   "week": "2025-07-18",
+   "stock": 523.7,
+   "spx": 134.0
+  },
+  {
+   "week": "2025-07-25",
+   "stock": 527.0,
+   "spx": 136.0
+  },
+  {
+   "week": "2025-08-01",
+   "stock": 527.7,
+   "spx": 132.8
+  },
+  {
+   "week": "2025-08-08",
+   "stock": 555.0,
+   "spx": 136.0
+  },
+  {
+   "week": "2025-08-15",
+   "stock": 548.1,
+   "spx": 137.3
+  },
+  {
+   "week": "2025-08-22",
+   "stock": 540.7,
+   "spx": 137.7
+  },
+  {
+   "week": "2025-08-29",
+   "stock": 529.1,
+   "spx": 137.5
+  },
+  {
+   "week": "2025-09-05",
+   "stock": 507.3,
+   "spx": 138.0
+  },
+  {
+   "week": "2025-09-12",
+   "stock": 540.2,
+   "spx": 140.2
+  },
+  {
+   "week": "2025-09-19",
+   "stock": 536.7,
+   "spx": 141.9
+  },
+  {
+   "week": "2025-09-26",
+   "stock": 541.3,
+   "spx": 141.4
+  },
+  {
+   "week": "2025-10-03",
+   "stock": 569.9,
+   "spx": 143.0
+  },
+  {
+   "week": "2025-10-10",
+   "stock": 556.4,
+   "spx": 139.5
+  },
+  {
+   "week": "2025-10-17",
+   "stock": 556.6,
+   "spx": 141.8
+  },
+  {
+   "week": "2025-10-24",
+   "stock": 565.8,
+   "spx": 144.6
+  },
+  {
+   "week": "2025-10-31",
+   "stock": 615.1,
+   "spx": 145.6
+  },
+  {
+   "week": "2025-11-07",
+   "stock": 571.6,
+   "spx": 143.2
+  },
+  {
+   "week": "2025-11-14",
+   "stock": 577.7,
+   "spx": 143.3
+  },
+  {
+   "week": "2025-11-21",
+   "stock": 543.4,
+   "spx": 140.6
+  },
+  {
+   "week": "2025-11-28",
+   "stock": 537.7,
+   "spx": 145.8
+  },
+  {
+   "week": "2025-12-05",
+   "stock": 554.1,
+   "spx": 146.2
+  },
+  {
+   "week": "2025-12-12",
+   "stock": 531.7,
+   "spx": 145.3
+  },
+  {
+   "week": "2025-12-19",
+   "stock": 549.8,
+   "spx": 145.5
+  },
+  {
+   "week": "2025-12-26",
+   "stock": 578.8,
+   "spx": 147.5
+  },
+  {
+   "week": "2026-01-02",
+   "stock": 573.7,
+   "spx": 146.0
+  },
+  {
+   "week": "2026-01-09",
+   "stock": 561.6,
+   "spx": 148.3
+  },
+  {
+   "week": "2026-01-16",
+   "stock": 565.8,
+   "spx": 147.7
+  },
+  {
+   "week": "2026-01-23",
+   "stock": 570.1,
+   "spx": 147.2
+  },
+  {
+   "week": "2026-01-30",
+   "stock": 580.6,
+   "spx": 147.7
+  },
+  {
+   "week": "2026-02-06",
+   "stock": 563.3,
+   "spx": 147.6
+  },
+  {
+   "week": "2026-02-13",
+   "stock": 555.4,
+   "spx": 145.5
+  },
+  {
+   "week": "2026-02-20",
+   "stock": 576.7,
+   "spx": 147.1
+  },
+  {
+   "week": "2026-02-27",
+   "stock": 538.3,
+   "spx": 146.4
+  },
+  {
+   "week": "2026-03-06",
+   "stock": 540.2,
+   "spx": 143.5
+  },
+  {
+   "week": "2026-03-13",
+   "stock": 547.6,
+   "spx": 141.2
+  },
+  {
+   "week": "2026-03-20",
+   "stock": 524.7,
+   "spx": 138.5
+  },
+  {
+   "week": "2026-03-27",
+   "stock": 508.9,
+   "spx": 135.6
+  },
+  {
+   "week": "2026-04-03",
+   "stock": 538.9,
+   "spx": 140.1
+  },
+  {
+   "week": "2026-04-10",
+   "stock": 573.1,
+   "spx": 145.1
+  },
+  {
+   "week": "2026-04-17",
+   "stock": 612.7,
+   "spx": 151.7
+  },
+  {
+   "week": "2026-04-24",
+   "stock": 632.7,
+   "spx": 152.5
+  },
+  {
+   "week": "2026-05-01",
+   "stock": 602.9,
+   "spx": 153.9
+  },
+  {
+   "week": "2026-05-08",
+   "stock": 653.8,
+   "spx": 157.5
+  },
+  {
+   "week": "2026-05-15",
+   "stock": 684.5,
+   "spx": 157.7
+  },
+  {
+   "week": "2026-05-22",
+   "stock": 654.2,
+   "spx": 159.1
+  },
+  {
+   "week": "2026-05-29",
+   "stock": 641.5,
+   "spx": 161.3
+  },
+  {
+   "week": "2026-06-05",
+   "stock": 623.8,
+   "spx": 157.2
+  },
+  {
+   "week": "2026-06-12",
+   "stock": 624.1,
+   "spx": 158.2
+  },
+  {
+   "week": "2026-06-19",
+   "stock": 640.8,
+   "spx": 159.7
+  },
+  {
+   "week": "2026-06-26",
+   "stock": 585.6,
+   "spx": 156.5
+  },
+  {
+   "week": "2026-07-03",
+   "stock": 592.6,
+   "spx": 159.3
+  },
+  {
+   "week": "2026-07-10",
+   "stock": 641.7,
+   "spx": 161.2
+  },
+  {
+   "week": "2026-07-17",
+   "stock": 616.9,
+   "spx": 158.7
+  },
+  {
+   "week": "2026-07-24",
+   "stock": 629.1,
+   "spx": 157.8
+  },
+  {
+   "week": "2026-07-31",
+   "stock": 610.6,
+   "spx": 159.4
+  },
+  {
+   "week": "2026-08-07",
+   "stock": 681.2,
+   "spx": 165.1
+  },
+  {
+   "week": "2026-08-14",
+   "stock": 684.9,
+   "spx": 165.7
+  },
+  {
+   "week": "2026-08-21",
+   "stock": 653.1,
+   "spx": 163.4
+  },
+  {
+   "week": "2026-08-28",
+   "stock": 661.7,
+   "spx": 164.2
+  },
+  {
+   "week": "2026-09-04",
+   "stock": 700.7,
+   "spx": 164.3
+  },
+  {
+   "week": "2026-09-11",
+   "stock": 664.7,
+   "spx": 163.0
+  },
+  {
+   "week": "2026-09-18",
+   "stock": 676.8,
+   "spx": 162.8
+  },
+  {
+   "week": "2026-09-25",
+   "stock": 685.3,
+   "spx": 164.8
+  },
+  {
+   "week": "2026-10-02",
+   "stock": 712.4,
+   "spx": 164.4
+  },
+  {
+   "week": "2026-10-09",
+   "stock": 698.2,
+   "spx": 166.3
+  },
+  {
+   "week": "2026-10-16",
+   "stock": 652.0,
+   "spx": 163.0
+  },
+  {
+   "week": "2026-10-23",
+   "stock": 642.4,
+   "spx": 162.3
+  },
+  {
+   "week": "2026-10-30",
+   "stock": 623.1,
+   "spx": 161.3
+  },
+  {
+   "week": "2026-11-06",
+   "stock": 568.3,
+   "spx": 157.0
+  },
+  {
+   "week": "2026-11-13",
+   "stock": 495.9,
+   "spx": 161.0
+  },
+  {
+   "week": "2026-11-20",
+   "stock": 382.2,
+   "spx": 147.1
+  }
+ ],
+ "shares_out": 24147000000,
+ "employees": 42000,
+ "latest_quarter_in_data": "2026-07-31",
+ "source": "Yahoo Finance (company financials, prices)",
+ "kind": "deepdive",
+ "brand": "After the Bell",
+ "date": "2026-11-22",
+ "date_label": "Sun 22 Nov 2026",
+ "as_of_label": "20 Nov 2026 close",
+ "title": "Nvidia: sales doubled, shares sank",
+ "short_name": "Nvidia",
+ "hook": "Record results, then a 23% fall in a week. What is the market actually betting on?",
+ "what_it_does": [
+  "Designs the chips (GPUs) that train and run AI models, plus chips for gaming PCs and cars.",
+  "Its biggest customers are tech giants and cloud firms building huge AI data centres.",
+  "Its CUDA software is a moat: code written for Nvidia chips is hard to move elsewhere.",
+  "It doesn't own factories. Partners such as TSMC manufacture the chips it designs."
+ ],
+ "segments": {
+  "period": "latest quarter, to Oct 2026",
+  "source": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+  "source_name": "Nvidia results via Motley Fool",
+  "items": [
+   {
+    "name": "Data centres",
+    "pct": 92.9
+   },
+   {
+    "name": "Everything else",
+    "pct": 7.1
+   }
+  ]
+ },
+ "takeaways": {
+  "price": "Even after falling about 30% in a year, it has still left the S&P 500 far behind over five years.",
+  "growth": "Sales roughly doubled each year. The newest quarter ($115.8B, +103%) isn't in these figures yet.",
+  "margins": "About 56 cents of every sales dollar became profit last year: rare for a company selling hardware.",
+  "health": "Far more cash than debt, and it spent about $40B buying back its own shares last year.",
+  "assumes": "The price only bets on about 7% yearly cash-flow growth, far below its recent pace. The debate isn't growth today, it's how long it lasts."
+ },
+ "bull": [
+  {
+   "text": "Sales more than doubled to $115.8B last quarter, and it expects about $130B next quarter.",
+   "source": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+   "source_name": "Motley Fool"
+  },
+  {
+   "text": "It raised its forecast for sales growth in its next financial year to 75%, from 70%.",
+   "source": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+   "source_name": "Motley Fool"
+  },
+  {
+   "text": "It keeps nearly 75 cents of each sales dollar as gross profit, a sign of real pricing power.",
+   "source": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+   "source_name": "Motley Fool"
+  }
+ ],
+ "bear": [
+  {
+   "text": "Founder-CEO Jensen Huang resigned, and the board says it won't bring him back.",
+   "source": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+   "source_name": "Motley Fool"
+  },
+  {
+   "text": "US authorities are examining whether its chips reached restricted buyers in China via a customer.",
+   "source": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+   "source_name": "Motley Fool"
+  },
+  {
+   "text": "It has given about $118B of financial guarantees linked to customers' data-centre projects.",
+   "source": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+   "source_name": "Motley Fool"
+  }
+ ],
+ "watch": [
+  {
+   "when": "Soon",
+   "title": "New CEO",
+   "text": "A search firm is looking for a permanent replacement for Jensen Huang.",
+   "source": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/"
+  },
+  {
+   "when": "Soon",
+   "title": "Full quarterly report",
+   "text": "The detailed 10-Q filing is due in the coming weeks.",
+   "source": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/"
+  },
+  {
+   "when": "Tue",
+   "title": "Dell results",
+   "text": "Dell sells AI servers built on Nvidia chips: a read on demand.",
+   "source": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-23-2026"
+  }
+ ],
+ "question": "Does a company need its founder to keep winning?"
+}

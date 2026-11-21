@@ -1,0 +1,93 @@
+{
+ "headline": "Chip crash drags stocks into correction",
+ "headline_em": "Chip crash",
+ "context": "The S&P 500 fell every day and ended 10% below its record, as chip stocks had their worst week since 2001.",
+ "context_source": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html",
+ "fun_fact": {
+  "text": "The S&P 500 fell all five days this week, four of them by 1% or more. Before now, that had only happened in 1962, 1974, 1978, after 9/11 and in October 2008.",
+  "source": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html",
+  "source_name": "Yahoo Finance, citing Bespoke"
+ },
+ "days_title": "Five days, five drops",
+ "day_labels": {
+  "2026-11-16": "Tech sinks before Nvidia reports",
+  "2026-11-17": "Software slump drags stocks lower",
+  "2026-11-18": "Health insurers slide",
+  "2026-11-19": "Every sector falls",
+  "2026-11-20": "Chip crash: S&P in a correction"
+ },
+ "numbers_title": "Almost nowhere to hide",
+ "why": {
+  "TSN": {
+   "text": "Results beat forecasts on Monday, and it expects a much smaller beef loss next year.",
+   "sources": [
+    "https://blockonomi.com/tyson-foods-tsn-stock-jumps-10-after-earnings-beat-and-smaller-beef-loss-forecast/"
+   ]
+  },
+  "HRL": {
+   "text": "No company news. Food makers were a safe place to hide as tech crashed (Tyson +10.7%).",
+   "sources": []
+  },
+  "PANW": {
+   "text": "Sales jumped 39% to $3.45B, beating forecasts, and it raised its full-year outlook.",
+   "sources": [
+    "https://parameter.io/okta-stock-jumps-as-cyber-fears-and-palo-alto-results-lift-security-names/"
+   ]
+  },
+  "TSCO": {
+   "text": "No company news. Steadier, everyday-spending stocks held up as investors fled tech.",
+   "sources": []
+  },
+  "OKTA": {
+   "text": "Security stocks rallied after a string of outages, then on Palo Alto's strong results.",
+   "sources": [
+    "https://parameter.io/okta-stock-jumps-as-cyber-fears-and-palo-alto-results-lift-security-names/"
+   ]
+  },
+  "BE": {
+   "text": "Its fuel cells power AI data centres, so it sank in the AI sell-off, falling 15% on Friday.",
+   "sources": [
+    "https://www.gurufocus.com/news/9202118/bloom-energy-be-shares-drop-nearly-8-amid-tech-sector-selloff-on-november-16-2026"
+   ]
+  },
+  "MU": {
+   "text": "Memory chips were hit hard as chip stocks had their worst week since 2001.",
+   "sources": [
+    "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+   ]
+  },
+  "NVDA": {
+   "text": "Sales doubled, but worries about its CEO's exit and an export probe outweighed the results.",
+   "sources": [
+    "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/"
+   ]
+  },
+  "LITE": {
+   "text": "Marvell is buying it with shares, so it fell with Marvell as chip stocks crashed.",
+   "sources": [
+    "https://www.gurufocus.com/news/9202044/lumentum-stocks-sink-832-as-marvell-slide-shrinks-deal-value-below-660"
+   ]
+  },
+  "FCX": {
+   "text": "Copper miners all slumped on Wednesday (a typical drop of 8.6%), then fell with the market.",
+   "sources": [
+    "https://www.trefis.com/stock/fcx/articles/626919/what-triggered-the-move-in-freeport-stock/2026-11-19"
+   ]
+  }
+ },
+ "watch": [
+  {
+   "when": "Tue",
+   "title": "Dell results",
+   "text": "A read on demand for AI servers after this week's chip crash.",
+   "source": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-23-2026"
+  },
+  {
+   "when": "Thu",
+   "title": "Thanksgiving",
+   "text": "US markets closed. Friday is a half day, closing at 1pm New York time.",
+   "source": "https://admiralmarkets.com/analytics/traders-blog/stock-market-hours-thanksgiving-black-friday-2026"
+  }
+ ],
+ "question": "What worried you most about this week's sell-off?"
+}
