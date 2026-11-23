@@ -1,0 +1,161 @@
+{
+ "date": "2026-11-23",
+ "generated_utc": "2026-11-23T22:05:07+00:00",
+ "indices": {
+  "S&P 500": {
+   "close": 7237.17,
+   "chg": 4.73
+  },
+  "Nasdaq": {
+   "close": 24089.56,
+   "chg": 6.51
+  },
+  "Dow": {
+   "close": 49595.31,
+   "chg": 3.01
+  }
+ },
+ "breadth_up": 418,
+ "breadth_down": 83,
+ "n": 502,
+ "winners": [
+  {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "sector": "Information Technology",
+   "sub_industry": "Semiconductors",
+   "close": 165.05,
+   "chg": 31.48,
+   "sub_industry_peers": {
+    "MU": 19.04,
+    "MRVL": 18.37,
+    "MPWR": 16.8,
+    "INTC": 16.34
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "sector": "Information Technology",
+   "sub_industry": "Technology Hardware, Storage & Peripherals",
+   "close": 334.91,
+   "chg": 20.46,
+   "sub_industry_peers": {
+    "HPE": 17.38,
+    "WDC": 13.84,
+    "STX": 13.8,
+    "SMCI": 13.3
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "sector": "Information Technology",
+   "sub_industry": "Semiconductors",
+   "close": 707.7,
+   "chg": 19.04,
+   "sub_industry_peers": {
+    "NVDA": 31.48,
+    "MRVL": 18.37,
+    "MPWR": 16.8,
+    "INTC": 16.34
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "CRWD",
+   "name": "CrowdStrike",
+   "sector": "Information Technology",
+   "sub_industry": "Systems Software",
+   "close": 208.97,
+   "chg": -8.92,
+   "sub_industry_peers": {
+    "TWLO": 7.16,
+    "FTNT": 5.25,
+    "NOW": 4.69,
+    "PANW": 2.94
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "IP",
+   "name": "International Paper",
+   "sector": "Materials",
+   "sub_industry": "Paper & Plastic Packaging Products & Materials",
+   "close": 28.98,
+   "chg": -4.55,
+   "sub_industry_peers": {
+    "SW": 4.91,
+    "AMCR": 2.62,
+    "AVY": 2.2,
+    "PKG": 1.57
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "ELV",
+   "name": "Elevance Health",
+   "sector": "Health Care",
+   "sub_industry": "Managed Health Care",
+   "close": 379.55,
+   "chg": -3.78,
+   "sub_industry_peers": {
+    "HUM": -1.62,
+    "UNH": -1.11,
+    "CNC": -0.72
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "sectors": [
+  [
+   "Information Technology",
+   7.16
+  ],
+  [
+   "Materials",
+   3.27
+  ],
+  [
+   "Industrials",
+   2.87
+  ],
+  [
+   "Financials",
+   2.12
+  ],
+  [
+   "Consumer Discretionary",
+   2.11
+  ],
+  [
+   "Communication Services",
+   2.11
+  ],
+  [
+   "Health Care",
+   1.6
+  ],
+  [
+   "Real Estate",
+   0.89
+  ],
+  [
+   "Utilities",
+   0.83
+  ],
+  [
+   "Consumer Staples",
+   -0.38
+  ],
+  [
+   "Energy",
+   -1.06
+  ]
+ ],
+ "source": "Yahoo Finance closing prices, S&P 500 constituents"
+}

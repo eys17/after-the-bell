@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "gates": {"reasons": "PASS", "story": "PASS", "watch": "PASS", "no_advice": "PASS", "fair": "PASS", "looks": "PASS"},
+  "fixes": [],
+  "notes": "Verified: Yahoo (Huang reinstated 23 Nov, resigned 12 Nov; index moves match), Fool (MU HBM/AI-fears), KuCoin (Dell rally on Nvidia, earnings 24 Nov), CRWD 8-K exhibits (all-stock ZS deal ~$43.9B, record Q3), heygotrade (Dell Tue, PCE+GDP Wed); no 23 Nov news found for IP or ELV, peer moves in data.json support both lines; slides clean."
+}

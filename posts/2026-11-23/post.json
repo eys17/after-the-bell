@@ -1,0 +1,125 @@
+{
+ "brand": "After the Bell",
+ "date": "2026-11-23",
+ "date_label": "Mon 23 Nov 2026",
+ "headline": "Huang's return sparks a huge tech rebound",
+ "headline_em": "Huang's return",
+ "context": "Nvidia's board brought back Jensen Huang as chief executive, and last week's heavy AI selling turned into a broad rally.",
+ "spx_close": 7237.17,
+ "spx_chg": 4.73,
+ "other_indices": {
+  "Nasdaq": {
+   "close": 24089.56,
+   "chg": 6.51
+  },
+  "Dow": {
+   "close": 49595.31,
+   "chg": 3.01
+  }
+ },
+ "breadth_up": 418,
+ "breadth_down": 83,
+ "winners": [
+  {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "chg": 31.48,
+   "why": "Its board reinstated Jensen Huang as chief executive, less than two weeks after he resigned."
+  },
+  {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "chg": 20.46,
+   "why": "AI server makers rallied with Nvidia a day before Dell's quarterly results. Peers such as HPE also jumped."
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "chg": 19.04,
+   "why": "Its memory chips go into Nvidia's AI processors, and Huang's return eased fears of an AI slowdown."
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "CRWD",
+   "name": "CrowdStrike",
+   "chg": -8.92,
+   "why": "Agreed to buy rival Zscaler in an all-stock deal worth about $43.9 billion, overshadowing record quarterly results."
+  },
+  {
+   "ticker": "IP",
+   "name": "International Paper",
+   "chg": -4.55,
+   "why": "No company news. It fell even as other packaging makers rose with the wider market."
+  },
+  {
+   "ticker": "ELV",
+   "name": "Elevance Health",
+   "chg": -3.78,
+   "why": "No company news. Health insurers fell together on a day when most of the market rallied."
+  }
+ ],
+ "sectors": [
+  [
+   "Tech",
+   7.16
+  ],
+  [
+   "Materials",
+   3.27
+  ],
+  [
+   "Industrials",
+   2.87
+  ],
+  [
+   "Financials",
+   2.12
+  ],
+  [
+   "Consumer Discr.",
+   2.11
+  ],
+  [
+   "Communication",
+   2.11
+  ],
+  [
+   "Health Care",
+   1.6
+  ],
+  [
+   "Real Estate",
+   0.89
+  ],
+  [
+   "Utilities",
+   0.83
+  ],
+  [
+   "Consumer Staples",
+   -0.38
+  ],
+  [
+   "Energy",
+   -1.06
+  ]
+ ],
+ "sector_note": "Median move of stocks in each S&P 500 sector",
+ "chart_title": "Tech led the rally, energy slipped",
+ "watch": [
+  {
+   "when": "Tue",
+   "title": "Dell earnings",
+   "text": "A test of demand for AI servers after the tech sell-off.",
+   "source": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/"
+  },
+  {
+   "when": "Wed",
+   "title": "Inflation and GDP data",
+   "text": "PCE, the Fed's preferred inflation gauge, plus a revised Q3 growth figure.",
+   "source": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/"
+  }
+ ],
+ "question": "Is Huang's return enough to end the AI sell-off?"
+}
