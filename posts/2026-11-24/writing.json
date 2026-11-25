@@ -1,0 +1,19 @@
+{
+  "headline": "Chipmakers slide after Nvidia's big rally",
+  "headline_em": "Chipmakers",
+  "context": "Investors sold chip and AI hardware stocks a day after Nvidia's huge rebound, but most other shares rose and the Dow gained.",
+  "chart_title": "Tech fell, every other sector rose",
+  "why": {
+    "DLTR": {"text": "Quarterly profit beat forecasts at $1.16 a share vs $0.91 expected, as more shoppers came in. It raised its full-year forecast.", "sources": ["https://www.investing.com/news/stock-market-news/dollar-tree-stock-jumps-on-earnings-beat-and-raised-outlook-5047743"]},
+    "CSGP": {"text": "No company news. Fellow property services firm CBRE also rose, as real estate stocks gained.", "sources": []},
+    "MRNA": {"text": "No company news. Biotech stocks rallied together, with Amgen, Biogen and Regeneron also rising.", "sources": []},
+    "ADI": {"text": "Results beat forecasts, but it plans to more than double its investment spending next year, and chipmakers fell broadly.", "sources": ["https://uk.investing.com/news/stock-market-news/earnings-call-transcript-analog-devices-beats-q4-2026-estimates-shares-slide-93CH-5002248", "https://stocktwits.com/news-articles/markets/equity/adi-stock-on-track-to-hit-7-month-low-after-record-fy-26-ceo-eyes-durable-growth-in-coming-year/cNbsJoyR9kN"]},
+    "HPE": {"text": "Results beat forecasts, but it warned profit margins on AI servers will shrink and parts could stay scarce into 2028.", "sources": ["https://www.investing.com/news/stock-market-news/hpe-shares-fall-as-margin-worries-overshadow-raised-outlook-5048068", "https://www.fool.com/investing/2026/11/24/dell-just-reported-earnings-and-raised-its-forecast-by-usd10-billion-is-the-stock-a-buy-after-tuesday-s-selloff/"]},
+    "DELL": {"text": "Fell with HPE on worries about AI server profits, ahead of its own results, which came out after the close.", "sources": ["https://www.fool.com/investing/2026/11/24/dell-just-reported-earnings-and-raised-its-forecast-by-usd10-billion-is-the-stock-a-buy-after-tuesday-s-selloff/"]}
+  },
+  "watch": [
+    {"when": "Wed", "title": "Inflation and GDP data", "text": "PCE, the Fed's preferred inflation gauge, plus a revised Q3 growth figure.", "source": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/"},
+    {"when": "Thu", "title": "Thanksgiving break", "text": "US markets are shut on Thursday and close early, at 1pm, on Friday.", "source": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/"}
+  ],
+  "question": "Was Monday's chip rally too much, too fast?"
+}

@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "gates": {"reasons": "PASS", "story": "PASS", "watch": "PASS", "no_advice": "PASS", "fair": "PASS", "looks": "PASS"},
+  "fixes": [],
+  "notes": "All 6 reasons checked against sources dated 24 Nov: DLTR $1.16 vs $0.91 with a raised outlook and higher traffic; ADI capex $0.7B to $1.6-1.9B; HPE AI margin cut and shortages into H2 2028; Dell reported after the close; CSGP and MRNA had no company news (MRNA rose with biotech on the Sanofi-Insmed deal). Story matches the wraps (Nvidia +31% Monday on Huang's return, chips slid Tuesday, Dow back above 50,000). PCE and GDP are on Wed 25 Nov, the market is shut Thu and closes at 1pm Fri. Slides are clean."
+}

@@ -1,0 +1,125 @@
+{
+ "brand": "After the Bell",
+ "date": "2026-11-24",
+ "date_label": "Tue 24 Nov 2026",
+ "headline": "Chipmakers slide after Nvidia's big rally",
+ "headline_em": "Chipmakers",
+ "context": "Investors sold chip and AI hardware stocks a day after Nvidia's huge rebound, but most other shares rose and the Dow gained.",
+ "spx_close": 7201.09,
+ "spx_chg": -0.5,
+ "other_indices": {
+  "Nasdaq": {
+   "close": 23733.54,
+   "chg": -1.48
+  },
+  "Dow": {
+   "close": 50018.7,
+   "chg": 0.85
+  }
+ },
+ "breadth_up": 346,
+ "breadth_down": 155,
+ "winners": [
+  {
+   "ticker": "DLTR",
+   "name": "Dollar Tree",
+   "chg": 11.18,
+   "why": "Quarterly profit beat forecasts at $1.16 a share vs $0.91 expected, as more shoppers came in. It raised its full-year forecast."
+  },
+  {
+   "ticker": "CSGP",
+   "name": "CoStar Group",
+   "chg": 8.08,
+   "why": "No company news. Fellow property services firm CBRE also rose, as real estate stocks gained."
+  },
+  {
+   "ticker": "MRNA",
+   "name": "Moderna",
+   "chg": 7.21,
+   "why": "No company news. Biotech stocks rallied together, with Amgen, Biogen and Regeneron also rising."
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "ADI",
+   "name": "Analog Devices",
+   "chg": -17.37,
+   "why": "Results beat forecasts, but it plans to more than double its investment spending next year, and chipmakers fell broadly."
+  },
+  {
+   "ticker": "HPE",
+   "name": "Hewlett Packard Enterprise",
+   "chg": -16.31,
+   "why": "Results beat forecasts, but it warned profit margins on AI servers will shrink and parts could stay scarce into 2028."
+  },
+  {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "chg": -11.83,
+   "why": "Fell with HPE on worries about AI server profits, ahead of its own results, which came out after the close."
+  }
+ ],
+ "sectors": [
+  [
+   "Health Care",
+   2.08
+  ],
+  [
+   "Communication",
+   1.88
+  ],
+  [
+   "Real Estate",
+   1.69
+  ],
+  [
+   "Consumer Discr.",
+   1.56
+  ],
+  [
+   "Consumer Staples",
+   1.34
+  ],
+  [
+   "Energy",
+   1.24
+  ],
+  [
+   "Financials",
+   0.99
+  ],
+  [
+   "Materials",
+   0.94
+  ],
+  [
+   "Utilities",
+   0.41
+  ],
+  [
+   "Industrials",
+   0.06
+  ],
+  [
+   "Tech",
+   -2.9
+  ]
+ ],
+ "sector_note": "Median move of stocks in each S&P 500 sector",
+ "chart_title": "Tech fell, every other sector rose",
+ "watch": [
+  {
+   "when": "Wed",
+   "title": "Inflation and GDP data",
+   "text": "PCE, the Fed's preferred inflation gauge, plus a revised Q3 growth figure.",
+   "source": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/"
+  },
+  {
+   "when": "Thu",
+   "title": "Thanksgiving break",
+   "text": "US markets are shut on Thursday and close early, at 1pm, on Friday.",
+   "source": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/"
+  }
+ ],
+ "question": "Was Monday's chip rally too much, too fast?"
+}
