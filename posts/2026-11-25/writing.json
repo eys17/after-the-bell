@@ -43,15 +43,15 @@
   "watch": [
     {
       "when": "Thu",
-      "title": "Thanksgiving break",
-      "text": "US markets are shut on Thursday and close early, at 1pm, on Friday.",
+      "title": "Thanksgiving",
+      "text": "US stock markets are closed all day.",
       "source": "https://investinglive.com/stocks/u-s-stocks-close-mixed-as-dow-reverses-a-1-105-point-drop/"
     },
     {
       "when": "Fri",
-      "title": "US jobs report",
-      "text": "Next week, on 4 December: November hiring and unemployment figures.",
-      "source": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+      "title": "Half-day session",
+      "text": "US markets reopen after the holiday but close early, at 1pm ET.",
+      "source": "https://investinglive.com/stocks/u-s-stocks-close-mixed-as-dow-reverses-a-1-105-point-drop/"
     }
   ],
   "question": "Was today's late rebound a relief, or just a pause in the AI sell-off?"

@@ -1,4 +1,0 @@
-Blocked: second independent review returned FIX (runbook step 4: no PASS after two reviews).
-Review 1: why.MU said "No company news" but BNP Paribas downgraded Micron on 25 Nov (fixed); watch[1] "Fri" badge ambiguous.
-Review 2: watch gate FAIL - the jobs-report card's "Fri" badge (actual date 4 Dec) sits under a "Thu" Thanksgiving card and reads as this Friday. Suggested fix: Thu = Thanksgiving closed, Fri = half-day session (1pm close), mention jobs report 4 Dec in text.
-All other gates passed (reasons, story, no advice, fair, looks). Code checks PASS.

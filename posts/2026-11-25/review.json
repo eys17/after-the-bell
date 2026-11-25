@@ -1,24 +1,6 @@
 {
-  "verdict": "FIX",
-  "gates": {
-    "reasons": "PASS",
-    "story": "PASS",
-    "watch": "FAIL",
-    "no_advice": "PASS",
-    "fair": "PASS",
-    "looks": "PASS"
-  },
-  "fixes": [
-    {
-      "field": "watch[1]",
-      "problem": "The 'Fri' badge sits right after 'Thu' under 'Coming up', so it reads as this Friday (27 Nov). The jobs report is actually out on Fri 4 Dec (BLS schedule). The body text gets the date right, but the badge, which is the most prominent part of the card, points at the wrong week. 'when' must be a short weekday, so put this Friday's real event under 'Fri' instead.",
-      "suggestion": "{\"when\": \"Fri\", \"title\": \"Half-day session\", \"text\": \"US markets close early, at 1pm ET. The November jobs report follows next Friday, 4 December.\", \"source\": \"https://investinglive.com/stocks/u-s-stocks-close-mixed-as-dow-reverses-a-1-105-point-drop/\"}"
-    },
-    {
-      "field": "watch[0]",
-      "problem": "Goes with the watch[1] fix: Friday's early close moves to the Fri card, so the Thu card should cover Thursday only.",
-      "suggestion": "{\"when\": \"Thu\", \"title\": \"Thanksgiving\", \"text\": \"US stock markets are closed all day.\", \"source\": \"https://investinglive.com/stocks/u-s-stocks-close-mixed-as-dow-reverses-a-1-105-point-drop/\"}"
-    }
-  ],
-  "notes": "All 6 reasons check out (HPQ $0.83 vs $0.74 and a cautious FY27 outlook per Yahoo; MU BNP downgrade to neutral on oversupply risk on 25 Nov; no company news found for CHTR, AXON or LRCX; ORCL fell with AI names amid financing and credit worries, with no company announcement). Yahoo's live blog supports the tariff/PCE context. The only problem is the Fri badge on the jobs-report card."
+  "verdict": "PASS",
+  "gates": {"reasons": "PASS", "story": "PASS", "watch": "PASS", "no_advice": "PASS", "fair": "PASS", "looks": "PASS"},
+  "fixes": [],
+  "notes": "All 6 reasons check out: HP's $0.83 vs $0.74 EPS and cautious FY27 outlook (Yahoo, Nov 25); BNP downgraded MU to neutral over oversupply risk (oninvest); the LRCX/AMAT moves and the tariffs, hot core PCE and late Dow reversal match investinglive and the Motley Fool wrap; no Nov 25 company catalyst found for CHTR, AXON or ORCL; Thu close and Fri 1pm ET early close are correct; slides are clean and the chart title matches the data."
 }
