@@ -63,8 +63,11 @@ Start a **separate agent** (Agent tool, general-purpose) and wait for it:
 What to do with each post's verdict:
 - **PASS:** approve it.
 - **FIX:** apply the fixes (unless a source shows a fix is wrong), rebuild, and run a
-  **fresh** reviewer on that post once more.
-- **Still not PASS:** write `posts/<date>/BLOCKED` with the reasons. Not posted.
+  **fresh** reviewer on that post. Keep going, up to **4 reviews** per post. A FIX is a
+  to-do list, not a stop sign. If a fix clashes with a code check, meet the reviewer's
+  point another way within the check.
+- **Still not PASS after the 4th review**, or unfixable: write `posts/<date>/BLOCKED` with
+  the reasons and the fixes still needed, and send a push notification. Not posted.
 
 ## 5. Approve and push
 

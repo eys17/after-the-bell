@@ -74,9 +74,16 @@ date, and wait for it:
 - `PASS` → go to step 5.
 - `FIX` → apply its fixes to `writing.json` (you may decide a fix is wrong, but only if
   you can show from a source that it is), re-run `build.py`, and run a **fresh** reviewer
-  agent once more.
-- Still not `PASS` after the second review → write `posts/<date>/BLOCKED` with the
-  reasons, commit, push, and stop. Nothing gets posted.
+  agent. Keep going: fix, rebuild, fresh review, up to **4 reviews** in total. A FIX is
+  a to-do list, not a stop sign. If a reason can't be sourced, the fix is to rewrite it
+  as "No company news." with what the data shows, not to give up on the post.
+- If a reviewer's fix clashes with a code check (e.g. a field format), find another way to
+  meet the reviewer's point within the check (reword, move or swap the item), and say so
+  to the next reviewer.
+- Block only if the 4th review is still not `PASS`, or something can't be fixed at all
+  (bad data, no sources for the market story). Then write `posts/<date>/BLOCKED` with the
+  reasons and the exact fixes still needed, commit, push, and send a push notification
+  with those fixes. Nothing gets posted.
 
 ## 5. Approve and push
 
