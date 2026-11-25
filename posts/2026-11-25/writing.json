@@ -1,0 +1,58 @@
+{
+  "headline": "Chip stocks slide, but the Dow ends higher",
+  "headline_em": "Dow",
+  "context": "AI and chip stocks sank on new US tariff plans and hotter inflation data, but buyers returned late and the Dow closed higher.",
+  "chart_title": "Every sector but health care rose",
+  "why": {
+    "HPQ": {
+      "text": "Quarterly profit beat forecasts at $0.83 a share vs $0.74 expected, though its outlook for next year was cautious.",
+      "sources": [
+        "https://ca.finance.yahoo.com/news/hp-shares-jump-earnings-beat-173300204.html",
+        "https://www.investing.com/news/transcripts/earnings-call-transcript-hp-beats-q4-2026-forecasts-but-stock-slips-93CH-5049329"
+      ]
+    },
+    "CHTR": {
+      "text": "No company news. Fellow cable firm Comcast also rose, but by much less.",
+      "sources": []
+    },
+    "AXON": {
+      "text": "No company news. Defence stocks gained too, with General Dynamics and Lockheed Martin also rising.",
+      "sources": []
+    },
+    "LRCX": {
+      "text": "No company news. Chip equipment makers led a broad sell-off in AI and chip stocks, with Applied Materials also falling.",
+      "sources": [
+        "https://investinglive.com/stocks/u-s-stocks-close-mixed-as-dow-reverses-a-1-105-point-drop/",
+        "https://247wallst.com/cards/an-18-point-spread-separated-joby-s-11-6-close-from-lam-res-amat-session-movers-01m8a8t78m1e3vfcn0zvdttdbd"
+      ]
+    },
+    "ORCL": {
+      "text": "No company news. It fell with other AI-linked stocks, and software firms Datadog and Autodesk also dropped.",
+      "sources": [
+        "https://investinglive.com/stocks/u-s-stocks-close-mixed-as-dow-reverses-a-1-105-point-drop/"
+      ]
+    },
+    "MU": {
+      "text": "BNP Paribas downgraded it to neutral, flagging a risk of too much memory supply, as chip stocks sold off.",
+      "sources": [
+        "https://en.oninvest.com/article/micron-s-stock-price-fell-a-bnp-paribas-analyst-cut-the-price-target-by-more-than-half",
+        "https://investinglive.com/stocks/u-s-stocks-close-mixed-as-dow-reverses-a-1-105-point-drop/"
+      ]
+    }
+  },
+  "watch": [
+    {
+      "when": "Thu",
+      "title": "Thanksgiving break",
+      "text": "US markets are shut on Thursday and close early, at 1pm, on Friday.",
+      "source": "https://investinglive.com/stocks/u-s-stocks-close-mixed-as-dow-reverses-a-1-105-point-drop/"
+    },
+    {
+      "when": "Fri",
+      "title": "US jobs report",
+      "text": "Next week, on 4 December: November hiring and unemployment figures.",
+      "source": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+    }
+  ],
+  "question": "Was today's late rebound a relief, or just a pause in the AI sell-off?"
+}

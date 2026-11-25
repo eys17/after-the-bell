@@ -1,0 +1,125 @@
+{
+ "brand": "After the Bell",
+ "date": "2026-11-25",
+ "date_label": "Wed 25 Nov 2026",
+ "headline": "Chip stocks slide, but the Dow ends higher",
+ "headline_em": "Dow",
+ "context": "AI and chip stocks sank on new US tariff plans and hotter inflation data, but buyers returned late and the Dow closed higher.",
+ "spx_close": 7182.78,
+ "spx_chg": -0.25,
+ "other_indices": {
+  "Nasdaq": {
+   "close": 23585.8,
+   "chg": -0.62
+  },
+  "Dow": {
+   "close": 50182.95,
+   "chg": 0.33
+  }
+ },
+ "breadth_up": 371,
+ "breadth_down": 128,
+ "winners": [
+  {
+   "ticker": "HPQ",
+   "name": "HP Inc.",
+   "chg": 11.49,
+   "why": "Quarterly profit beat forecasts at $0.83 a share vs $0.74 expected, though its outlook for next year was cautious."
+  },
+  {
+   "ticker": "CHTR",
+   "name": "Charter Communications",
+   "chg": 8.39,
+   "why": "No company news. Fellow cable firm Comcast also rose, but by much less."
+  },
+  {
+   "ticker": "AXON",
+   "name": "Axon Enterprise",
+   "chg": 7.43,
+   "why": "No company news. Defence stocks gained too, with General Dynamics and Lockheed Martin also rising."
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "LRCX",
+   "name": "Lam Research",
+   "chg": -5.68,
+   "why": "No company news. Chip equipment makers led a broad sell-off in AI and chip stocks, with Applied Materials also falling."
+  },
+  {
+   "ticker": "ORCL",
+   "name": "Oracle Corporation",
+   "chg": -5.13,
+   "why": "No company news. It fell with other AI-linked stocks, and software firms Datadog and Autodesk also dropped."
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "chg": -4.53,
+   "why": "BNP Paribas downgraded it to neutral, flagging a risk of too much memory supply, as chip stocks sold off."
+  }
+ ],
+ "sectors": [
+  [
+   "Materials",
+   2.05
+  ],
+  [
+   "Real Estate",
+   1.35
+  ],
+  [
+   "Consumer Discr.",
+   1.28
+  ],
+  [
+   "Energy",
+   1.17
+  ],
+  [
+   "Financials",
+   1.02
+  ],
+  [
+   "Industrials",
+   0.97
+  ],
+  [
+   "Consumer Staples",
+   0.88
+  ],
+  [
+   "Utilities",
+   0.64
+  ],
+  [
+   "Tech",
+   0.46
+  ],
+  [
+   "Communication",
+   0.43
+  ],
+  [
+   "Health Care",
+   -0.16
+  ]
+ ],
+ "sector_note": "Median move of stocks in each S&P 500 sector",
+ "chart_title": "Every sector but health care rose",
+ "watch": [
+  {
+   "when": "Thu",
+   "title": "Thanksgiving break",
+   "text": "US markets are shut on Thursday and close early, at 1pm, on Friday.",
+   "source": "https://investinglive.com/stocks/u-s-stocks-close-mixed-as-dow-reverses-a-1-105-point-drop/"
+  },
+  {
+   "when": "Fri",
+   "title": "US jobs report",
+   "text": "Next week, on 4 December: November hiring and unemployment figures.",
+   "source": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+  }
+ ],
+ "question": "Was today's late rebound a relief, or just a pause in the AI sell-off?"
+}

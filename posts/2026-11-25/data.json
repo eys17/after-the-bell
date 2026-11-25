@@ -1,0 +1,159 @@
+{
+ "date": "2026-11-25",
+ "generated_utc": "2026-11-25T22:05:28+00:00",
+ "indices": {
+  "S&P 500": {
+   "close": 7182.78,
+   "chg": -0.25
+  },
+  "Nasdaq": {
+   "close": 23585.8,
+   "chg": -0.62
+  },
+  "Dow": {
+   "close": 50182.95,
+   "chg": 0.33
+  }
+ },
+ "breadth_up": 371,
+ "breadth_down": 128,
+ "n": 502,
+ "winners": [
+  {
+   "ticker": "HPQ",
+   "name": "HP Inc.",
+   "sector": "Information Technology",
+   "sub_industry": "Technology Hardware, Storage & Peripherals",
+   "close": 31.15,
+   "chg": 11.49,
+   "sub_industry_peers": {
+    "SMCI": 3.05,
+    "P": 2.7,
+    "STX": -2.1,
+    "HPE": 1.57
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "CHTR",
+   "name": "Charter Communications",
+   "sector": "Communication Services",
+   "sub_industry": "Cable & Satellite",
+   "close": 147.27,
+   "chg": 8.39,
+   "sub_industry_peers": {
+    "CMCSA": 1.38
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "AXON",
+   "name": "Axon Enterprise",
+   "sector": "Industrials",
+   "sub_industry": "Aerospace & Defense",
+   "close": 343.05,
+   "chg": 7.43,
+   "sub_industry_peers": {
+    "GD": 2.48,
+    "HII": 2.23,
+    "LMT": 2.15,
+    "HONA": 1.98
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "LRCX",
+   "name": "Lam Research",
+   "sector": "Information Technology",
+   "sub_industry": "Semiconductor Materials & Equipment",
+   "close": 185.01,
+   "chg": -5.68,
+   "sub_industry_peers": {
+    "AMAT": -3.89,
+    "Q": -0.9,
+    "TER": -0.5,
+    "KLAC": 0.41
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "ORCL",
+   "name": "Oracle Corporation",
+   "sector": "Information Technology",
+   "sub_industry": "Application Software",
+   "close": 103.88,
+   "chg": -5.13,
+   "sub_industry_peers": {
+    "DDOG": -4.31,
+    "ADSK": -3.49,
+    "INTU": -2.76,
+    "SNPS": -2.35
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "sector": "Information Technology",
+   "sub_industry": "Semiconductors",
+   "close": 601.25,
+   "chg": -4.53,
+   "sub_industry_peers": {
+    "ADI": 6.44,
+    "TXN": 4.55,
+    "NVDA": -3.91,
+    "MCHP": 2.3
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "sectors": [
+  [
+   "Materials",
+   2.05
+  ],
+  [
+   "Real Estate",
+   1.35
+  ],
+  [
+   "Consumer Discretionary",
+   1.28
+  ],
+  [
+   "Energy",
+   1.17
+  ],
+  [
+   "Financials",
+   1.02
+  ],
+  [
+   "Industrials",
+   0.97
+  ],
+  [
+   "Consumer Staples",
+   0.88
+  ],
+  [
+   "Utilities",
+   0.64
+  ],
+  [
+   "Information Technology",
+   0.46
+  ],
+  [
+   "Communication Services",
+   0.43
+  ],
+  [
+   "Health Care",
+   -0.16
+  ]
+ ],
+ "source": "Yahoo Finance closing prices, S&P 500 constituents"
+}
