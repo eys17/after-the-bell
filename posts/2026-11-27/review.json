@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "gates": {"reasons": "PASS", "story": "PASS", "watch": "PASS", "no_advice": "PASS", "fair": "PASS", "looks": "PASS"},
+  "fixes": [],
+  "notes": "Sources confirm the optical rebound after Wednesday's AI sell-off (COHR, LITE), storage/memory moving together (STX), the FDA extending its povetacicept review to 28 Feb 2027 (VRTX), the S&P 500's best week in 19 months (Fool), Marvell reporting Tue 1 Dec and jobs data Fri 4 Dec at 8:30am ET (StockTitan). PODD and SJM peer moves match data.json, and SJM reported on 24 Nov, not today. Slides are clean. Optional: the LITE line could mention the pending Marvell all-stock deal, since Marvell reports Tuesday."
+}

@@ -1,0 +1,160 @@
+{
+ "date": "2026-11-27",
+ "generated_utc": "2026-11-27T22:05:26+00:00",
+ "indices": {
+  "S&P 500": {
+   "close": 7297.49,
+   "chg": 1.6
+  },
+  "Nasdaq": {
+   "close": 24129.5,
+   "chg": 2.31
+  },
+  "Dow": {
+   "close": 50774.94,
+   "chg": 1.18
+  }
+ },
+ "breadth_up": 407,
+ "breadth_down": 94,
+ "n": 502,
+ "winners": [
+  {
+   "ticker": "COHR",
+   "name": "Coherent Corp.",
+   "sector": "Information Technology",
+   "sub_industry": "Electronic Components",
+   "close": 223.79,
+   "chg": 14.07,
+   "sub_industry_peers": {
+    "GLW": 4.83,
+    "APH": 2.82
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "sector": "Information Technology",
+   "sub_industry": "Communications Equipment",
+   "close": 514.63,
+   "chg": 7.98,
+   "sub_industry_peers": {
+    "ANET": 6.55,
+    "CIEN": 5.68,
+    "CSCO": 3.01,
+    "FFIV": 1.83
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "STX",
+   "name": "Seagate Technology",
+   "sector": "Information Technology",
+   "sub_industry": "Technology Hardware, Storage & Peripherals",
+   "close": 509.66,
+   "chg": 7.9,
+   "sub_industry_peers": {
+    "WDC": 7.22,
+    "P": 7.15,
+    "DELL": 6.7,
+    "HPE": 4.75
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "VRTX",
+   "name": "Vertex Pharmaceuticals",
+   "sector": "Health Care",
+   "sub_industry": "Biotechnology",
+   "close": 534.57,
+   "chg": -5.24,
+   "sub_industry_peers": {
+    "MRNA": 3.53,
+    "BIIB": 1.06,
+    "REGN": 1.05,
+    "AMGN": 1.03
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "PODD",
+   "name": "Insulet Corporation",
+   "sector": "Health Care",
+   "sub_industry": "Health Care Equipment",
+   "close": 138.9,
+   "chg": -2.65,
+   "sub_industry_peers": {
+    "BAX": -1.72,
+    "GEHC": 1.55,
+    "IDXX": 1.38,
+    "RMD": -1.13
+   },
+   "yahoo_headlines": []
+  },
+  {
+   "ticker": "SJM",
+   "name": "J.M. Smucker Company (The)",
+   "sector": "Consumer Staples",
+   "sub_industry": "Packaged Foods & Meats",
+   "close": 126.86,
+   "chg": -2.46,
+   "sub_industry_peers": {
+    "HRL": -1.6,
+    "GIS": -1.1,
+    "TSN": -0.5,
+    "MKC": -0.38
+   },
+   "yahoo_headlines": []
+  }
+ ],
+ "sectors": [
+  [
+   "Information Technology",
+   3.21
+  ],
+  [
+   "Materials",
+   1.53
+  ],
+  [
+   "Communication Services",
+   1.37
+  ],
+  [
+   "Energy",
+   1.2
+  ],
+  [
+   "Industrials",
+   1.11
+  ],
+  [
+   "Financials",
+   1.08
+  ],
+  [
+   "Consumer Discretionary",
+   0.43
+  ],
+  [
+   "Real Estate",
+   0.39
+  ],
+  [
+   "Health Care",
+   0.29
+  ],
+  [
+   "Utilities",
+   0.07
+  ],
+  [
+   "Consumer Staples",
+   -0.06
+  ]
+ ],
+ "source": "Yahoo Finance closing prices, S&P 500 constituents"
+}

@@ -1,0 +1,125 @@
+{
+ "brand": "After the Bell",
+ "date": "2026-11-27",
+ "date_label": "Fri 27 Nov 2026",
+ "headline": "AI stocks rebound in a short Black Friday",
+ "headline_em": "AI stocks",
+ "context": "Investors returned to beaten-down chip and AI stocks in a half-day session, capping the S&P 500's best week in 19 months.",
+ "spx_close": 7297.49,
+ "spx_chg": 1.6,
+ "other_indices": {
+  "Nasdaq": {
+   "close": 24129.5,
+   "chg": 2.31
+  },
+  "Dow": {
+   "close": 50774.94,
+   "chg": 1.18
+  }
+ },
+ "breadth_up": 407,
+ "breadth_down": 94,
+ "winners": [
+  {
+   "ticker": "COHR",
+   "name": "Coherent Corp.",
+   "chg": 14.07,
+   "why": "No company news. Optical network stocks bounced back from Wednesday's AI sell-off."
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "chg": 7.98,
+   "why": "No company news. Rose with network gear makers as AI stocks recovered; Arista also gained."
+  },
+  {
+   "ticker": "STX",
+   "name": "Seagate Technology",
+   "chg": 7.9,
+   "why": "Storage and memory stocks rallied together as buyers returned to AI names, with Western Digital also up sharply."
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "VRTX",
+   "name": "Vertex Pharmaceuticals",
+   "chg": -5.24,
+   "why": "The FDA delayed its decision on povetacicept, a kidney disease drug, to as late as 28 February."
+  },
+  {
+   "ticker": "PODD",
+   "name": "Insulet Corporation",
+   "chg": -2.65,
+   "why": "No company news. Health care lagged the rally, and fellow device makers Baxter and ResMed also slipped."
+  },
+  {
+   "ticker": "SJM",
+   "name": "J.M. Smucker Company (The)",
+   "chg": -2.46,
+   "why": "No company news. Packaged food makers fell together, with Hormel and General Mills also lower."
+  }
+ ],
+ "sectors": [
+  [
+   "Tech",
+   3.21
+  ],
+  [
+   "Materials",
+   1.53
+  ],
+  [
+   "Communication",
+   1.37
+  ],
+  [
+   "Energy",
+   1.2
+  ],
+  [
+   "Industrials",
+   1.11
+  ],
+  [
+   "Financials",
+   1.08
+  ],
+  [
+   "Consumer Discr.",
+   0.43
+  ],
+  [
+   "Real Estate",
+   0.39
+  ],
+  [
+   "Health Care",
+   0.29
+  ],
+  [
+   "Utilities",
+   0.07
+  ],
+  [
+   "Consumer Staples",
+   -0.06
+  ]
+ ],
+ "sector_note": "Median move of stocks in each S&P 500 sector",
+ "chart_title": "Tech led; all but staples rose",
+ "watch": [
+  {
+   "when": "Tue",
+   "title": "Marvell earnings",
+   "text": "A key AI chip maker reports, days after a rocky week for the sector.",
+   "source": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-30-2026"
+  },
+  {
+   "when": "Fri",
+   "title": "November jobs report",
+   "text": "The monthly hiring figures land at 8:30am ET.",
+   "source": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-30-2026"
+  }
+ ],
+ "question": "Was this week's AI rebound the real thing, or just a breather?"
+}

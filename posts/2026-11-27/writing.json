@@ -1,0 +1,57 @@
+{
+  "headline": "AI stocks rebound in a short Black Friday",
+  "headline_em": "AI stocks",
+  "context": "Investors returned to beaten-down chip and AI stocks in a half-day session, capping the S&P 500's best week in 19 months.",
+  "chart_title": "Tech led; all but staples rose",
+  "why": {
+    "COHR": {
+      "text": "No company news. Optical network stocks bounced back from Wednesday's AI sell-off.",
+      "sources": [
+        "https://247wallst.com/investing/2026/11/27/coherent-jumps-12-as-optical-stocks-rebound-from-wednesdays-ai-selloff-applied-optoelectronics-and-lumentum-rise-7/"
+      ]
+    },
+    "LITE": {
+      "text": "No company news. Rose with network gear makers as AI stocks recovered; Arista also gained.",
+      "sources": [
+        "https://247wallst.com/investing/2026/11/27/coherent-jumps-12-as-optical-stocks-rebound-from-wednesdays-ai-selloff-applied-optoelectronics-and-lumentum-rise-7/"
+      ]
+    },
+    "STX": {
+      "text": "Storage and memory stocks rallied together as buyers returned to AI names, with Western Digital also up sharply.",
+      "sources": [
+        "https://www.investing.com/news/stock-market-news/why-is-seagate-technology-stock-surging-today-93CH-5053717",
+        "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-major-indexes-140450439.html"
+      ]
+    },
+    "VRTX": {
+      "text": "The FDA delayed its decision on povetacicept, a kidney disease drug, to as late as 28 February.",
+      "sources": [
+        "https://www.investing.com/news/stock-market-news/vertex-pharma-falls-after-fda-extends-review-of-kidney-disease-drug-5053713",
+        "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-s-and-p-500-posts-best-week-in-19-months-as-ai-stocks-rebound/"
+      ]
+    },
+    "PODD": {
+      "text": "No company news. Health care lagged the rally, and fellow device makers Baxter and ResMed also slipped.",
+      "sources": []
+    },
+    "SJM": {
+      "text": "No company news. Packaged food makers fell together, with Hormel and General Mills also lower.",
+      "sources": []
+    }
+  },
+  "watch": [
+    {
+      "when": "Tue",
+      "title": "Marvell earnings",
+      "text": "A key AI chip maker reports, days after a rocky week for the sector.",
+      "source": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-30-2026"
+    },
+    {
+      "when": "Fri",
+      "title": "November jobs report",
+      "text": "The monthly hiring figures land at 8:30am ET.",
+      "source": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-30-2026"
+    }
+  ],
+  "question": "Was this week's AI rebound the real thing, or just a breather?"
+}
